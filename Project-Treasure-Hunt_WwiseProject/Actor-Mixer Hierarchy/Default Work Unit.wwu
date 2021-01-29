@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{12736248-3910-435E-B939-605EC93B110B}" SchemaVersion="97">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{12736248-3910-435E-B939-605EC93B110B}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{12736248-3910-435E-B939-605EC93B110B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="PlayerFootsteps1" ID="{C16F0ACD-F5E7-4C35-9BBC-E8FD2DBDC02E}" ShortID="730864553">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DC8CDB0-8962-461B-92F7-6C5216BCD536}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PlayerFootsteps1" ID="{E574C318-0740-4215-B92C-B3E7193F0ED6}">
+							<Language>SFX</Language>
+							<AudioFile>PlayerFootsteps1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="558619351"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="PlayerFootsteps1" ID="{E574C318-0740-4215-B92C-B3E7193F0ED6}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
