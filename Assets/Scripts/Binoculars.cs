@@ -30,13 +30,6 @@ public class Binoculars : MonoBehaviour
 
     void Update()
     {
-        //test
-        if(Input.GetKeyDown(KeyCode.T))
-        {
-            Debug.Log("Scaling test!");
-            StartCoroutine(Scale(scaleUp));
-        }
-
         //equip or turn if possible
         if(Input.GetMouseButtonDown(0) && !busy)
         {
@@ -68,19 +61,19 @@ public class Binoculars : MonoBehaviour
         {
             if (reversed)
             {
-                StartCoroutine(Scale(scaleDown));
+                StartCoroutine(Scale(scaleDown, state));
                 state = BinocularsState.reversed; //equiped
             }
             else
             {
-                StartCoroutine(Scale(scaleUp));
+                StartCoroutine(Scale(scaleUp, state));
                 state = BinocularsState.equiped; //reversed
             }
            
         }
         else
         {
-            StartCoroutine(Scale(originalScale)); //unqeuip 
+            StartCoroutine(Scale(originalScale, state)); //unqeuip 
             state = BinocularsState.unequiped;
         }
     }
@@ -90,35 +83,48 @@ public class Binoculars : MonoBehaviour
         busy = true;
         if (reversed)
         {
-            StartCoroutine(Scale(scaleUp));
+            StartCoroutine(Scale(scaleUp, state));
             state = BinocularsState.equiped; //equiped
             reversed = false;
         }
         else
         {
-            StartCoroutine(Scale(scaleDown));
+            StartCoroutine(Scale(scaleDown, state));
             state = BinocularsState.reversed; //reversed
             reversed = true;
         }
     }
 
-    private IEnumerator Scale(Vector2 targetScale)
+    private IEnumerator Scale(Vector2 targetScale, BinocularsState currentState)
     {
+        bool revert = false;
         Vector2 initialScale = gameObject.transform.localScale;
         float progress = 0;
         while(progress <= 1)
         {
+            if(cancelScale && !revert && targetScale.x > initialScale.x)
+            {
+                targetScale = initialScale;
+                initialScale = transform.localScale;
+                progress = 0;
+                revert = true;
+            }
             transform.localScale = Vector2.Lerp(initialScale, targetScale, progress);
             progress += Time.deltaTime * timeScale;
             yield return null;
         }
         transform.localScale = targetScale;
         busy = false;
-        cancelScale = false;
+
+        if (revert)
+        {
+            state = currentState;
+            if (state != BinocularsState.unequiped) reversed = !reversed;
+        }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void CancelScale(bool cancel)
     {
-        //cancelScale = true;
+        cancelScale = cancel;
     }
 }
