@@ -44,6 +44,7 @@ public class Movement : MonoBehaviour
         if (isGrounded && Input.GetKeyDown(KeyCode.Space))
         {
             Jump();
+            jumpTimer = jumpTimerReset;
         }
 
         if (Input.GetKey(KeyCode.Space) && isJumping)
@@ -97,7 +98,6 @@ public class Movement : MonoBehaviour
     {
         rb.velocity = Vector2.up * jumpForce;
         isJumping = true;
-        jumpTimer = jumpTimerReset;
     }
 
     void Flip()
