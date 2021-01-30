@@ -6,6 +6,6 @@ public class PlayerSoundScript : MonoBehaviour
 {
     public void Step()
     {
-        //AkSoundEngine.PostEvent("PlayerFootstep", this.gameObject);
+        AkSoundEngine.PostEvent("PlayerFootstep", this.gameObject);
     }
 }
