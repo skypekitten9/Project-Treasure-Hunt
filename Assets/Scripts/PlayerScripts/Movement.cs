@@ -16,7 +16,6 @@ public class Movement : MonoBehaviour
     private float checkRadius = 0.25f;
     private float jumpTimerReset;
 
-    private bool facingRight = true;
     private bool isGrounded;
     private bool isJumping;
 
@@ -72,11 +71,6 @@ public class Movement : MonoBehaviour
         }
     }
 
-    private void FixedUpdate()
-    {
-        rb.velocity = Vector2.ClampMagnitude(rb.velocity, 10);
-    }
-
     private void Move()
     {
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatIsGround);
@@ -84,27 +78,19 @@ public class Movement : MonoBehaviour
 
         rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
 
-        if (!facingRight && moveInput > 0)
+        if (moveInput > 0)
         {
-            Flip();
+            transform.eulerAngles = new Vector3(0, 0, 0);
         }
-        else if (facingRight && moveInput < 0)
+        else if (moveInput < 0)
         {
-            Flip();
+            transform.eulerAngles = new Vector3(0, 180, 0);
         }
     }
 
     private void Jump()
     {
-        rb.velocity = Vector2.up * jumpForce;
+        rb.velocity = new Vector2(rb.velocity.x, 1 * jumpForce);
         isJumping = true;
-    }
-
-    void Flip()
-    {
-        facingRight = !facingRight;
-        Vector3 scalar = transform.localScale;
-        scalar.x *= -1;
-        transform.localScale = scalar;
     }
 }
