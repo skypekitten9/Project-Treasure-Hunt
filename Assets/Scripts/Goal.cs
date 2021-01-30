@@ -16,7 +16,7 @@ public class Goal : MonoBehaviour
         if (goalReached && !transitioning)
         {
             transitioning = true;
-            GameMaster.Instance.NextLevel();
+            GameMaster.Instance.Win();
         }
     }
 }
