@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 275f9cf68caeaa84cbd819a6c5dac156, type: 3}
-  m_Name: 39BFD25A-96BF-4D98-A53E-C8BF0C7E3632
+  m_Name: 21DB9CB9-4ECA-47DC-9CCB-C85099B22D43
   m_EditorClassIdentifier: 
-  objectName: TestEvent
-  id: 1097980931
-  guid: 39BFD25A-96BF-4D98-A53E-C8BF0C7E3632
+  objectName: BigUnequip
+  id: 4239201732
+  guid: 21DB9CB9-4ECA-47DC-9CCB-C85099B22D43

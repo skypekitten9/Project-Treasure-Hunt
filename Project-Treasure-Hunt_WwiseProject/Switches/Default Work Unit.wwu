@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{A4B98D0F-BF98-4E76-8B9F-4260AC11C07A}" SchemaVersion="97">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{A4B98D0F-BF98-4E76-8B9F-4260AC11C07A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{A4B98D0F-BF98-4E76-8B9F-4260AC11C07A}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="PlayerSize" ID="{1162FF49-A37A-45AC-8854-C19D859FD55F}">
+					<ChildrenList>
+						<Switch Name="Normal" ID="{8A09FC26-0ED8-4472-9F0E-D1FA44E94BBB}"/>
+						<Switch Name="Big" ID="{BDFEF79B-38AF-43A8-B5C8-63A2C406FC31}"/>
+						<Switch Name="Small" ID="{7D25BCB3-F924-4634-A89C-56519BF16F4D}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>
