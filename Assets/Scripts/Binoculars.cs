@@ -4,6 +4,20 @@ using UnityEngine;
 public enum BinocularsState { unequiped, equiped, reversed };
 public class Binoculars : MonoBehaviour
 {
+    private static Binoculars instance = null;
+    public static Binoculars Instance { get { return instance; } }
+
+
+
+    public void Awake()
+    {
+        if (instance != null && instance != this)
+            Destroy(this.gameObject);
+        else
+            instance = this;
+    }
+
+
     public Vector2 scaleUp, scaleDown;
     public float timeScale;
 
