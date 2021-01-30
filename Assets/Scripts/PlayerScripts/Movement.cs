@@ -7,11 +7,14 @@ public class Movement : MonoBehaviour
 
     [Header("Movement Values")]
     public float speed;
+    public float bigSpeed;
+    public float smallSpeed;
     public float jumpForce;
     public int extraJumps;
     public float jumpTimer;
     private int jumpReset;
 
+    private float originalSpeed;
     private float moveInput;
     private float checkRadius = 0.25f;
     private float jumpTimerReset;
@@ -43,6 +46,7 @@ public class Movement : MonoBehaviour
         damageTimer = 0.35f;
         damageTimerReset = damageTimer;
         isDamaged = false;
+        originalSpeed = speed;
     }
 
     void Update()
@@ -55,6 +59,8 @@ public class Movement : MonoBehaviour
         {
             isDamaged = false;
         }
+
+        AlterProperties();
 
         if (!isDamaged)
         {
@@ -83,7 +89,7 @@ public class Movement : MonoBehaviour
             {
                 isJumping = false;
             }
-
+            
 
             if (isGrounded)
             {
@@ -126,5 +132,30 @@ public class Movement : MonoBehaviour
     public void ResetDamageTimer()
     {
         damageTimer = damageTimerReset;
+    }
+
+    private void AlterProperties()
+    {
+        if (Binoculars.Instance.State == BinocularsState.equiped)
+        {
+            speed = bigSpeed;
+            rb.mass = 5;
+            rb.gravityScale = 2.5f;
+            jumpForce = 3;
+        }
+        else if (Binoculars.Instance.State == BinocularsState.reversed)
+        {
+            speed = smallSpeed;
+            rb.mass = 0.25f;
+            rb.gravityScale = 0.5f;
+            jumpForce = 5;
+        }
+        else if (Binoculars.Instance.State == BinocularsState.unequiped)
+        {
+            speed = originalSpeed;
+            rb.mass = 1;
+            rb.gravityScale = 1;
+            jumpForce = 3;
+        }
     }
 }

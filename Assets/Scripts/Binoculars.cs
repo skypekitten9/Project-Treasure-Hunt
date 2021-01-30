@@ -6,6 +6,7 @@ public class Binoculars : MonoBehaviour
 {
     private static Binoculars instance = null;
     public static Binoculars Instance { get { return instance; } }
+    public BinocularsState State { get { return state; } }
 
 
 
