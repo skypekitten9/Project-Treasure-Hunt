@@ -51,7 +51,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="PlayerFootstep1" ID="{40221E01-06BE-4061-990E-F9D0058421EE}" ShortID="781493372">
+										<Sound Name="PlayerFootstep1" ID="{5D008DCE-95EE-414D-8A4C-757F30B8D26A}" ShortID="256965658">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
@@ -68,7 +68,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="PlayerFootstep1" ID="{17EC3EE6-3966-4B67-81DC-5AB9CDF4780A}">
+												<AudioFileSource Name="PlayerFootstep1" ID="{6130F1A9-6432-4118-8DB7-4CB2636815FE}">
 													<Language>SFX</Language>
 													<AudioFile>PlayerFootstep1.wav</AudioFile>
 													<MediaIDList>
@@ -77,10 +77,10 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="PlayerFootstep1" ID="{17EC3EE6-3966-4B67-81DC-5AB9CDF4780A}" Platform="Linked"/>
+												<ActiveSource Name="PlayerFootstep1" ID="{6130F1A9-6432-4118-8DB7-4CB2636815FE}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="PlayerFootstep2" ID="{EF17F665-4927-4777-9838-ED829C04BE9A}" ShortID="123359407">
+										<Sound Name="PlayerFootstep2" ID="{9EFE9EC1-42B3-4A35-AFE9-3A68E7231366}" ShortID="812921638">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
@@ -97,7 +97,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="PlayerFootstep2" ID="{F12D2A9B-CB1C-4A4F-BC3E-91E5BB56F07D}">
+												<AudioFileSource Name="PlayerFootstep2" ID="{912532FE-F4A3-4D96-BF0E-ADCB7C9622B9}">
 													<Language>SFX</Language>
 													<AudioFile>PlayerFootstep2.wav</AudioFile>
 													<MediaIDList>
@@ -106,10 +106,10 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="PlayerFootstep2" ID="{F12D2A9B-CB1C-4A4F-BC3E-91E5BB56F07D}" Platform="Linked"/>
+												<ActiveSource Name="PlayerFootstep2" ID="{912532FE-F4A3-4D96-BF0E-ADCB7C9622B9}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="PlayerFootstep3" ID="{0DF83E5D-E971-4A5E-8118-5200E5BD6847}" ShortID="504801891">
+										<Sound Name="PlayerFootstep3" ID="{C1688CEB-6642-446C-84F9-61D56A906791}" ShortID="228067796">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
@@ -126,7 +126,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="PlayerFootstep3" ID="{DD212172-3724-496A-B5D2-04A40D053D3C}">
+												<AudioFileSource Name="PlayerFootstep3" ID="{09D9C0B9-FEBF-4679-91C0-0437B72840DA}">
 													<Language>SFX</Language>
 													<AudioFile>PlayerFootstep3.wav</AudioFile>
 													<MediaIDList>
@@ -135,10 +135,10 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="PlayerFootstep3" ID="{DD212172-3724-496A-B5D2-04A40D053D3C}" Platform="Linked"/>
+												<ActiveSource Name="PlayerFootstep3" ID="{09D9C0B9-FEBF-4679-91C0-0437B72840DA}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="PlayerFootstep4" ID="{B43A95B8-DFE8-4765-9860-4FEFE815B124}" ShortID="451870245">
+										<Sound Name="PlayerFootstep4" ID="{8BE87000-BEA5-48DA-9E88-B4DDB759FD27}" ShortID="646312018">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
@@ -155,7 +155,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="PlayerFootstep4" ID="{A6C9AE0E-F211-441A-97B1-B0B5EC211698}">
+												<AudioFileSource Name="PlayerFootstep4" ID="{36D7CC2E-C8EB-4222-B628-081703FD8E40}">
 													<Language>SFX</Language>
 													<AudioFile>PlayerFootstep4.wav</AudioFile>
 													<MediaIDList>
@@ -164,7 +164,7 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="PlayerFootstep4" ID="{A6C9AE0E-F211-441A-97B1-B0B5EC211698}" Platform="Linked"/>
+												<ActiveSource Name="PlayerFootstep4" ID="{36D7CC2E-C8EB-4222-B628-081703FD8E40}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -199,7 +199,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="PlayerFootstepBig1" ID="{5FF56920-02D0-4792-A903-DB77D16D7194}" ShortID="726162835">
+										<Sound Name="PlayerFootstepBig1" ID="{4B07DD80-DFED-4774-999A-32B3A37EE63C}" ShortID="121834523">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
@@ -209,7 +209,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="PlayerFootstepBig1" ID="{9FB434F5-5D36-4059-83B4-588D8062B56C}">
+												<AudioFileSource Name="PlayerFootstepBig1" ID="{7F2F99B9-53AE-4D8D-A43E-CB4A5ED6E39C}">
 													<Language>SFX</Language>
 													<AudioFile>PlayerFootstepBig1.wav</AudioFile>
 													<MediaIDList>
@@ -218,10 +218,10 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="PlayerFootstepBig1" ID="{9FB434F5-5D36-4059-83B4-588D8062B56C}" Platform="Linked"/>
+												<ActiveSource Name="PlayerFootstepBig1" ID="{7F2F99B9-53AE-4D8D-A43E-CB4A5ED6E39C}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="PlayerFootstepBig2" ID="{8A51FE3D-6CCE-4B7E-AF75-DF123241464A}" ShortID="470890944">
+										<Sound Name="PlayerFootstepBig2" ID="{297D9C43-8373-401D-8971-E489BBF47199}" ShortID="429306968">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
@@ -231,7 +231,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="PlayerFootstepBig2" ID="{A860CEAD-A776-4C83-A35C-89FC128A5318}">
+												<AudioFileSource Name="PlayerFootstepBig2" ID="{B05CD268-8547-445F-877A-277FB3360E8C}">
 													<Language>SFX</Language>
 													<AudioFile>PlayerFootstepBig2.wav</AudioFile>
 													<MediaIDList>
@@ -240,10 +240,10 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="PlayerFootstepBig2" ID="{A860CEAD-A776-4C83-A35C-89FC128A5318}" Platform="Linked"/>
+												<ActiveSource Name="PlayerFootstepBig2" ID="{B05CD268-8547-445F-877A-277FB3360E8C}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="PlayerFootstepBig3" ID="{94D8EFA2-8AF6-4483-9E12-51D742FA193C}" ShortID="13336661">
+										<Sound Name="PlayerFootstepBig3" ID="{C2655D37-96F8-4D82-A160-4B3F491A6908}" ShortID="615682203">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
@@ -253,7 +253,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="PlayerFootstepBig3" ID="{EFED4815-62BF-4B5F-92D4-F8A855AB769F}">
+												<AudioFileSource Name="PlayerFootstepBig3" ID="{1AD0E7E9-EA7B-4803-89A2-FC463F5F5343}">
 													<Language>SFX</Language>
 													<AudioFile>PlayerFootstepBig3.wav</AudioFile>
 													<MediaIDList>
@@ -262,10 +262,10 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="PlayerFootstepBig3" ID="{EFED4815-62BF-4B5F-92D4-F8A855AB769F}" Platform="Linked"/>
+												<ActiveSource Name="PlayerFootstepBig3" ID="{1AD0E7E9-EA7B-4803-89A2-FC463F5F5343}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="PlayerFootstepBig4" ID="{95712685-06B0-453B-A785-8F6875AB853C}" ShortID="960071087">
+										<Sound Name="PlayerFootstepBig4" ID="{C18793E2-DD00-4062-8951-9397C4FB9CB4}" ShortID="429245462">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
@@ -275,7 +275,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="PlayerFootstepBig4" ID="{A158BF1C-E4B2-4E74-BDEF-5C24D1FCFD92}">
+												<AudioFileSource Name="PlayerFootstepBig4" ID="{45400B3F-4DC2-4C6C-B815-C1F627450B4A}">
 													<Language>SFX</Language>
 													<AudioFile>PlayerFootstepBig4.wav</AudioFile>
 													<MediaIDList>
@@ -284,7 +284,7 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="PlayerFootstepBig4" ID="{A158BF1C-E4B2-4E74-BDEF-5C24D1FCFD92}" Platform="Linked"/>
+												<ActiveSource Name="PlayerFootstepBig4" ID="{45400B3F-4DC2-4C6C-B815-C1F627450B4A}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -319,7 +319,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="PlayerFootstepSmall1" ID="{3584485B-E994-4B58-9322-D34DDBAAC033}" ShortID="794997259">
+										<Sound Name="PlayerFootstepSmall1" ID="{D2518CEF-42A2-45F8-B9E9-EC666EA57678}" ShortID="25508090">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
@@ -329,7 +329,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="PlayerFootstepSmall1" ID="{45A635CD-7735-4FEF-BB0D-D2B1FC09B971}">
+												<AudioFileSource Name="PlayerFootstepSmall1" ID="{E2C5FDC9-F49B-42FD-9ACC-3AFE79A2F1D2}">
 													<Language>SFX</Language>
 													<AudioFile>PlayerFootstepSmall1.wav</AudioFile>
 													<MediaIDList>
@@ -338,10 +338,10 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="PlayerFootstepSmall1" ID="{45A635CD-7735-4FEF-BB0D-D2B1FC09B971}" Platform="Linked"/>
+												<ActiveSource Name="PlayerFootstepSmall1" ID="{E2C5FDC9-F49B-42FD-9ACC-3AFE79A2F1D2}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="PlayerFootstepSmall2" ID="{3DBF27D8-89BD-4A33-B0AB-45D890B49495}" ShortID="650934383">
+										<Sound Name="PlayerFootstepSmall2" ID="{37E35DB5-2106-45D6-9003-5D0DD90B4767}" ShortID="810011423">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
@@ -351,7 +351,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="PlayerFootstepSmall2" ID="{11448375-326E-467E-AC86-856929843289}">
+												<AudioFileSource Name="PlayerFootstepSmall2" ID="{DA170068-12F0-477F-9D1B-B0A32E81305B}">
 													<Language>SFX</Language>
 													<AudioFile>PlayerFootstepSmall2.wav</AudioFile>
 													<MediaIDList>
@@ -360,10 +360,10 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="PlayerFootstepSmall2" ID="{11448375-326E-467E-AC86-856929843289}" Platform="Linked"/>
+												<ActiveSource Name="PlayerFootstepSmall2" ID="{DA170068-12F0-477F-9D1B-B0A32E81305B}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="PlayerFootstepSmall3" ID="{0790A71B-82CB-4727-935D-7ED90826CF86}" ShortID="625855783">
+										<Sound Name="PlayerFootstepSmall3" ID="{A66B7497-C3B7-4544-A028-88C09B74924B}" ShortID="642034670">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
@@ -373,7 +373,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="PlayerFootstepSmall3" ID="{53715C61-5FBB-47F9-B062-DDBDA442A531}">
+												<AudioFileSource Name="PlayerFootstepSmall3" ID="{83E532B2-91DC-46F8-ADEF-05CADBC4943E}">
 													<Language>SFX</Language>
 													<AudioFile>PlayerFootstepSmall3.wav</AudioFile>
 													<MediaIDList>
@@ -382,7 +382,7 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="PlayerFootstepSmall3" ID="{53715C61-5FBB-47F9-B062-DDBDA442A531}" Platform="Linked"/>
+												<ActiveSource Name="PlayerFootstepSmall3" ID="{83E532B2-91DC-46F8-ADEF-05CADBC4943E}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -435,11 +435,11 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="PlayerJump" ID="{C36643D6-03A9-4488-AC54-B776E7970F8E}" ShortID="377594150">
+								<Sound Name="PlayerJump" ID="{A33E76CD-71A4-4361-AB38-04EAF3D206C0}" ShortID="1056547373">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>4</Value>
+												<Value>5</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -452,7 +452,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="PlayerJump" ID="{8CACD49C-F4BD-41A8-B7DE-8A15CE8850F8}">
+										<AudioFileSource Name="PlayerJump" ID="{3C4FBD1F-0424-45C8-9496-949CACAF2E00}">
 											<Language>SFX</Language>
 											<AudioFile>PlayerJump.wav</AudioFile>
 											<MediaIDList>
@@ -461,14 +461,14 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="PlayerJump" ID="{8CACD49C-F4BD-41A8-B7DE-8A15CE8850F8}" Platform="Linked"/>
+										<ActiveSource Name="PlayerJump" ID="{3C4FBD1F-0424-45C8-9496-949CACAF2E00}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="PlayerJumpBig" ID="{F7E011D0-685D-46EA-9399-51A6C3152E31}" ShortID="417149114">
+								<Sound Name="PlayerJumpBig" ID="{5A6BA019-1EE6-491C-9773-414041A9A894}" ShortID="296032555">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>10</Value>
+												<Value>9</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -481,7 +481,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="PlayerJumpBig" ID="{E7D53157-EA70-4806-9336-D8BC93A3B4B0}">
+										<AudioFileSource Name="PlayerJumpBig" ID="{EBE42B6E-8D7D-4896-9F6B-7C719D109590}">
 											<Language>SFX</Language>
 											<AudioFile>PlayerJumpBig.wav</AudioFile>
 											<MediaIDList>
@@ -490,10 +490,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="PlayerJumpBig" ID="{E7D53157-EA70-4806-9336-D8BC93A3B4B0}" Platform="Linked"/>
+										<ActiveSource Name="PlayerJumpBig" ID="{EBE42B6E-8D7D-4896-9F6B-7C719D109590}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="PlayerJumpSmall" ID="{AF0A44AF-E1D4-409F-99D5-536D6977114E}" ShortID="891912668">
+								<Sound Name="PlayerJumpSmall" ID="{FD3314C8-650E-40F6-A063-A8E04E26EFE0}" ShortID="269636012">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
@@ -510,7 +510,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="PlayerJumpSmall" ID="{381F06C9-039B-49F3-97A5-FFBF88AB9378}">
+										<AudioFileSource Name="PlayerJumpSmall" ID="{A2BEC7CD-98C8-4CAC-B96C-DEC9B283DBDA}">
 											<Language>SFX</Language>
 											<AudioFile>PlayerJumpSmall.wav</AudioFile>
 											<MediaIDList>
@@ -519,42 +519,22 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="PlayerJumpSmall" ID="{381F06C9-039B-49F3-97A5-FFBF88AB9378}" Platform="Linked"/>
+										<ActiveSource Name="PlayerJumpSmall" ID="{A2BEC7CD-98C8-4CAC-B96C-DEC9B283DBDA}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
 									<GroupingBehavior>
-										<ItemRef Name="PlayerJumpSmall" ID="{AF0A44AF-E1D4-409F-99D5-536D6977114E}"/>
+										<ItemRef Name="PlayerJumpBig" ID="{5A6BA019-1EE6-491C-9773-414041A9A894}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="PlayerJumpBig" ID="{F7E011D0-685D-46EA-9399-51A6C3152E31}"/>
+										<ItemRef Name="PlayerJumpSmall" ID="{FD3314C8-650E-40F6-A063-A8E04E26EFE0}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="PlayerJump" ID="{C36643D6-03A9-4488-AC54-B776E7970F8E}"/>
+										<ItemRef Name="PlayerJump" ID="{A33E76CD-71A4-4361-AB38-04EAF3D206C0}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
-								<GroupingList>
-									<Grouping>
-										<SwitchRef Name="Normal" ID="{8A09FC26-0ED8-4472-9F0E-D1FA44E94BBB}"/>
-										<ItemList>
-											<ItemRef Name="PlayerJump" ID="{C36643D6-03A9-4488-AC54-B776E7970F8E}"/>
-										</ItemList>
-									</Grouping>
-									<Grouping>
-										<SwitchRef Name="Big" ID="{BDFEF79B-38AF-43A8-B5C8-63A2C406FC31}"/>
-										<ItemList>
-											<ItemRef Name="PlayerJumpBig" ID="{F7E011D0-685D-46EA-9399-51A6C3152E31}"/>
-										</ItemList>
-									</Grouping>
-									<Grouping>
-										<SwitchRef Name="Small" ID="{7D25BCB3-F924-4634-A89C-56519BF16F4D}"/>
-										<ItemList>
-											<ItemRef Name="PlayerJumpSmall" ID="{AF0A44AF-E1D4-409F-99D5-536D6977114E}"/>
-										</ItemList>
-									</Grouping>
-								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
 					</ChildrenList>
@@ -562,6 +542,13 @@
 				<Folder Name="Binoculars" ID="{8787A0C9-1D81-41FE-A3EE-CB172DA232D2}" ShortID="663126322">
 					<ChildrenList>
 						<Sound Name="BigUnequip" ID="{DAF3E817-C108-4164-B785-F95581462200}" ShortID="205868706">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
@@ -584,6 +571,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="SmallUnequip" ID="{4C130A3F-BBC7-4B7C-85D8-786DD6B498A7}" ShortID="1038796402">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
@@ -606,6 +600,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="UnequipBig" ID="{382CC541-D1FA-4601-9F8E-A15A2734ADD2}" ShortID="248920413">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
@@ -628,6 +629,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="UnequipSmall" ID="{7791F724-D668-4979-9EB6-758B721AE986}" ShortID="331797888">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
