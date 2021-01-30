@@ -8,7 +8,7 @@ public class Goal : MonoBehaviour
     bool goalReached = false;
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        goalReached = true;
+        if (collision.tag == "Player") goalReached = true;
     }
 
     private void Update()
