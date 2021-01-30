@@ -3,17 +3,81 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{BDE37CC4-7C5D-44F7-8375-2563AFE76DE0}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="TestEvent" ID="{39BFD25A-96BF-4D98-A53E-C8BF0C7E3632}">
+				<Folder Name="Player" ID="{B87D0EFF-BA61-4751-B24E-B636F017B63B}" ShortID="812343714">
 					<ChildrenList>
-						<Action Name="" ID="{EB923E61-869A-42DE-9AEC-05150096F8DB}" ShortID="135398697">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="PlayerFootsteps1" ID="{C16F0ACD-F5E7-4C35-9BBC-E8FD2DBDC02E}" WorkUnitID="{12736248-3910-435E-B939-605EC93B110B}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="PlayerFootstep" ID="{092BB6BC-FC3E-4FBB-ADFF-2571037EA426}">
+							<ChildrenList>
+								<Action Name="" ID="{B620BC2A-4BA6-48FA-BAF8-6ED3C1A038C2}" ShortID="334574607">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PlayerFootsteps" ID="{B30EF08F-69C9-4DD4-9D08-17D5EEA82310}" WorkUnitID="{12736248-3910-435E-B939-605EC93B110B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PlayerJump" ID="{7DE6BFDA-2BF6-472A-A106-A222135CC336}">
+							<ChildrenList>
+								<Action Name="" ID="{F20FECA4-73C0-4A49-A986-0739288DF919}" ShortID="939267258">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PlayerJump" ID="{138A8970-B414-4FD4-8DA9-0B74F0244D7B}" WorkUnitID="{12736248-3910-435E-B939-605EC93B110B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
+				</Folder>
+				<Folder Name="Binoculars" ID="{C0A30424-E6B6-4016-ABAB-7CEB6F32BBDD}" ShortID="505975175">
+					<ChildrenList>
+						<Event Name="UnequipSmall" ID="{3080E946-8C7B-4144-8B74-FAEB66040913}">
+							<ChildrenList>
+								<Action Name="" ID="{DA7BDE57-3906-4578-AB78-72BACB151F87}" ShortID="842132919">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UnequipSmall" ID="{C94204B3-0B39-4449-BC64-489106A9A675}" WorkUnitID="{12736248-3910-435E-B939-605EC93B110B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="BigUnequip" ID="{21DB9CB9-4ECA-47DC-9CCB-C85099B22D43}">
+							<ChildrenList>
+								<Action Name="" ID="{4200E945-2A98-47FA-83BD-1B7FB67C9DC3}" ShortID="764004596">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BigUnequip" ID="{A0CD6E7B-DAA8-4F4F-86B0-BF24EB2929BA}" WorkUnitID="{12736248-3910-435E-B939-605EC93B110B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SmallUnequip" ID="{DA87BF36-D668-41F4-BE61-0639BF7851B5}">
+							<ChildrenList>
+								<Action Name="" ID="{CCDD1A1F-5850-444C-AB9A-AA87A4DC979E}" ShortID="922477248">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SmallUnequip" ID="{B42EF189-3E66-4DBF-9B3E-2149FBB251E6}" WorkUnitID="{12736248-3910-435E-B939-605EC93B110B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UnequipBig" ID="{4EBC19DA-E63C-4650-AF73-A35A098B5521}">
+							<ChildrenList>
+								<Action Name="" ID="{CCEB849B-E09C-421B-9F5F-C628F0D734F0}" ShortID="319641398">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UnequipBig" ID="{4740E252-D743-435A-8B58-E5F5A37C19FB}" WorkUnitID="{12736248-3910-435E-B939-605EC93B110B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="SoundtrackStart" ID="{3FD64D85-7DCF-40E2-A3CC-20BFA8E53CC6}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -5,7 +5,13 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{D5FF258D-A57C-4D06-9D9D-C8FD12E726A6}">
 					<ObjectInclusionList>
-						<ObjectRef Name="TestEvent" ID="{39BFD25A-96BF-4D98-A53E-C8BF0C7E3632}" WorkUnitID="{BDE37CC4-7C5D-44F7-8375-2563AFE76DE0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SoundtrackStart" ID="{3FD64D85-7DCF-40E2-A3CC-20BFA8E53CC6}" WorkUnitID="{BDE37CC4-7C5D-44F7-8375-2563AFE76DE0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UnequipSmall" ID="{3080E946-8C7B-4144-8B74-FAEB66040913}" WorkUnitID="{BDE37CC4-7C5D-44F7-8375-2563AFE76DE0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SmallUnequip" ID="{DA87BF36-D668-41F4-BE61-0639BF7851B5}" WorkUnitID="{BDE37CC4-7C5D-44F7-8375-2563AFE76DE0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UnequipBig" ID="{4EBC19DA-E63C-4650-AF73-A35A098B5521}" WorkUnitID="{BDE37CC4-7C5D-44F7-8375-2563AFE76DE0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayerJump" ID="{7DE6BFDA-2BF6-472A-A106-A222135CC336}" WorkUnitID="{BDE37CC4-7C5D-44F7-8375-2563AFE76DE0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="BigUnequip" ID="{21DB9CB9-4ECA-47DC-9CCB-C85099B22D43}" WorkUnitID="{BDE37CC4-7C5D-44F7-8375-2563AFE76DE0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayerFootstep" ID="{092BB6BC-FC3E-4FBB-ADFF-2571037EA426}" WorkUnitID="{BDE37CC4-7C5D-44F7-8375-2563AFE76DE0}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
