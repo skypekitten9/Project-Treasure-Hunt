@@ -16,20 +16,161 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="3460061334">
+		<SoundBank Id="3161908922" Language="SFX" Hash="791367466">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1097980931" Name="TestEvent" ObjectPath="\Events\Default Work Unit\TestEvent" DurationType="OneShot" DurationMin="0.532958" DurationMax="0.532958">
+				<Event Id="4239201732" Name="BigUnequip" ObjectPath="\Events\Default Work Unit\Binoculars\BigUnequip" DurationType="OneShot" DurationMin="1.090708" DurationMax="1.090708">
 					<IncludedMemoryFiles>
-						<File Id="558619351" Language="SFX">
-							<ShortName>PlayerFootsteps1.wav</ShortName>
-							<Path>SFX\PlayerFootsteps1_10C4C929.wem</Path>
+						<File Id="773939083" Language="SFX">
+							<ShortName>BigUnequip.wav</ShortName>
+							<Path>SFX\BigUnequip_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3542290436" Name="PlayerFootstep" ObjectPath="\Events\Default Work Unit\Player\PlayerFootstep" DurationType="OneShot" DurationMin="0.109127" DurationMax="1.014378">
+					<IncludedMemoryFiles>
+						<File Id="252891759" Language="SFX">
+							<ShortName>PlayerFootstepBig1.wav</ShortName>
+							<Path>SFX\PlayerFootstepBig1_10C4C929.wem</Path>
+						</File>
+						<File Id="344841291" Language="SFX">
+							<ShortName>PlayerFootstepBig4.wav</ShortName>
+							<Path>SFX\PlayerFootstepBig4_10C4C929.wem</Path>
+						</File>
+						<File Id="395645688" Language="SFX">
+							<ShortName>PlayerFootstep1.wav</ShortName>
+							<Path>SFX\PlayerFootstep1_10C4C929.wem</Path>
+						</File>
+						<File Id="489711362" Language="SFX">
+							<ShortName>PlayerFootstepSmall2.wav</ShortName>
+							<Path>SFX\PlayerFootstepSmall2_10C4C929.wem</Path>
+						</File>
+						<File Id="566968721" Language="SFX">
+							<ShortName>PlayerFootstep2.wav</ShortName>
+							<Path>SFX\PlayerFootstep2_10C4C929.wem</Path>
+						</File>
+						<File Id="620126677" Language="SFX">
+							<ShortName>PlayerFootstepSmall3.wav</ShortName>
+							<Path>SFX\PlayerFootstepSmall3_10C4C929.wem</Path>
+						</File>
+						<File Id="839980601" Language="SFX">
+							<ShortName>PlayerFootstepSmall1.wav</ShortName>
+							<Path>SFX\PlayerFootstepSmall1_10C4C929.wem</Path>
+						</File>
+						<File Id="880025455" Language="SFX">
+							<ShortName>PlayerFootstep4.wav</ShortName>
+							<Path>SFX\PlayerFootstep4_10C4C929.wem</Path>
+						</File>
+						<File Id="903432915" Language="SFX">
+							<ShortName>PlayerFootstepBig3.wav</ShortName>
+							<Path>SFX\PlayerFootstepBig3_10C4C929.wem</Path>
+						</File>
+						<File Id="918644030" Language="SFX">
+							<ShortName>PlayerFootstep3.wav</ShortName>
+							<Path>SFX\PlayerFootstep3_10C4C929.wem</Path>
+						</File>
+						<File Id="928482621" Language="SFX">
+							<ShortName>PlayerFootstepBig2.wav</ShortName>
+							<Path>SFX\PlayerFootstepBig2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{8A09FC26-0ED8-4472-9F0E-D1FA44E94BBB}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{8A09FC26-0ED8-4472-9F0E-D1FA44E94BBB}">
+							<Media>
+								<File Id="395645688"/>
+								<File Id="566968721"/>
+								<File Id="880025455"/>
+								<File Id="918644030"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{BDFEF79B-38AF-43A8-B5C8-63A2C406FC31}">
+							<Media>
+								<File Id="252891759"/>
+								<File Id="344841291"/>
+								<File Id="903432915"/>
+								<File Id="928482621"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{7D25BCB3-F924-4634-A89C-56519BF16F4D}">
+							<Media>
+								<File Id="489711362"/>
+								<File Id="620126677"/>
+								<File Id="839980601"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="4008126242" Name="PlayerJump" ObjectPath="\Events\Default Work Unit\Player\PlayerJump" DurationType="OneShot" DurationMin="0.230000" DurationMax="0.280000">
+					<IncludedMemoryFiles>
+						<File Id="160367161" Language="SFX">
+							<ShortName>PlayerJump.wav</ShortName>
+							<Path>SFX\PlayerJump_10C4C929.wem</Path>
+						</File>
+						<File Id="579225202" Language="SFX">
+							<ShortName>PlayerJumpSmall.wav</ShortName>
+							<Path>SFX\PlayerJumpSmall_10C4C929.wem</Path>
+						</File>
+						<File Id="921230088" Language="SFX">
+							<ShortName>PlayerJumpBig.wav</ShortName>
+							<Path>SFX\PlayerJumpBig_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{8A09FC26-0ED8-4472-9F0E-D1FA44E94BBB}">
+							<Media>
+								<File Id="160367161"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{BDFEF79B-38AF-43A8-B5C8-63A2C406FC31}">
+							<Media>
+								<File Id="921230088"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{7D25BCB3-F924-4634-A89C-56519BF16F4D}">
+							<Media>
+								<File Id="579225202"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2891699369" Name="SmallUnequip" ObjectPath="\Events\Default Work Unit\Binoculars\SmallUnequip" DurationType="OneShot" DurationMin="1.061708" DurationMax="1.061708">
+					<IncludedMemoryFiles>
+						<File Id="227294564" Language="SFX">
+							<ShortName>SmallUnequip.wav</ShortName>
+							<Path>SFX\SmallUnequip_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="484553877" Name="SoundtrackStart" ObjectPath="\Events\Default Work Unit\SoundtrackStart" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2277327558" Name="UnequipBig" ObjectPath="\Events\Default Work Unit\Binoculars\UnequipBig" DurationType="OneShot" DurationMin="1.079458" DurationMax="1.079458">
+					<IncludedMemoryFiles>
+						<File Id="690314602" Language="SFX">
+							<ShortName>UnequipBig.wav</ShortName>
+							<Path>SFX\UnequipBig_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="841125737" Name="UnequipSmall" ObjectPath="\Events\Default Work Unit\Binoculars\UnequipSmall" DurationType="OneShot" DurationMin="1.071458" DurationMax="1.071458">
+					<IncludedMemoryFiles>
+						<File Id="634291527" Language="SFX">
+							<ShortName>UnequipSmall.wav</ShortName>
+							<Path>SFX\UnequipSmall_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
+			<SwitchGroups>
+				<SwitchGroup Id="4258827653" Name="PlayerSize" ObjectPath="\Switches\Default Work Unit\PlayerSize">
+					<Switches>
+						<Switch Id="1160234136" Name="Normal" ObjectPath="\Switches\Default Work Unit\PlayerSize\Normal"/>
+						<Switch Id="647611021" Name="Big" ObjectPath="\Switches\Default Work Unit\PlayerSize\Big"/>
+						<Switch Id="1846755610" Name="Small" ObjectPath="\Switches\Default Work Unit\PlayerSize\Small"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

@@ -20,7 +20,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 3e979ef5db698548aeb1b8b1d088dedd
     GuidInternal: 
-    m_lastTime: -8585896758563074946
+    m_lastTime: -8585895751979717951
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -30,7 +30,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: b0cdc88d62891b4692f76c5216bcd536
     GuidInternal: 
-    m_lastTime: -8585896758563144743
+    m_lastTime: -8585895751979827657
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -49,7 +49,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: d72922b7949b8c4bbdc30b20b8d331ed
     GuidInternal: 
-    m_lastTime: -8585895907197157296
+    m_lastTime: -8585895745272353762
     List:
     - name: Main
       guid: 8d25ffd57ca5064d9d9dc8fd12e726a6
@@ -68,17 +68,125 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: c47ce3bd5d7cf74483752563afe76de0
     GuidInternal: 
-    m_lastTime: -8585895907197237327
+    m_lastTime: -8585895745272264005
     List:
-    - name: TestEvent
-      guid: 5ad2bf39bf96984da53ec8bf0c7e3632
-      id: 1097980931
+    - name: BigUnequip
+      guid: b99cdb21ca4edc479ccbc85099b22d43
+      id: 4239201732
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: TestEvent
+      - ElementName: Binoculars
+        ObjectType: 4
+      - ElementName: BigUnequip
         ObjectType: 3
-      Path: Default Work Unit\TestEvent
+      Path: Default Work Unit\Binoculars\BigUnequip
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Binoculars
+      guid: 2404a3c0b6e61640abab7ceb6f32bbdd
+      id: 384081475
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Binoculars
+        ObjectType: 4
+      Path: Default Work Unit\Binoculars
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Player
+      guid: ff0e7db861ba5147b24eb636f017b63b
+      id: 1069431850
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Player
+        ObjectType: 4
+      Path: Default Work Unit\Player
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PlayerFootstep
+      guid: bcb62b093efcbb4fadff2571037ea426
+      id: 3542290436
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Player
+        ObjectType: 4
+      - ElementName: PlayerFootstep
+        ObjectType: 3
+      Path: Default Work Unit\Player\PlayerFootstep
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PlayerJump
+      guid: dabfe67df62b2a47a106a222135cc336
+      id: 4008126242
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Player
+        ObjectType: 4
+      - ElementName: PlayerJump
+        ObjectType: 3
+      Path: Default Work Unit\Player\PlayerJump
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: SmallUnequip
+      guid: 36bf87da68d6f441be610639bf7851b5
+      id: 2891699369
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Binoculars
+        ObjectType: 4
+      - ElementName: SmallUnequip
+        ObjectType: 3
+      Path: Default Work Unit\Binoculars\SmallUnequip
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: SoundtrackStart
+      guid: 854dd63fcf7de240a3cc20bfa8e53cc6
+      id: 484553877
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SoundtrackStart
+        ObjectType: 3
+      Path: Default Work Unit\SoundtrackStart
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: UnequipBig
+      guid: da19bc4e3ce65046af73a35a098b5521
+      id: 2277327558
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Binoculars
+        ObjectType: 4
+      - ElementName: UnequipBig
+        ObjectType: 3
+      Path: Default Work Unit\Binoculars\UnequipBig
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: UnequipSmall
+      guid: 46e980307b8c44418b74faeb66040913
+      id: 841125737
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Binoculars
+        ObjectType: 4
+      - ElementName: UnequipSmall
+        ObjectType: 3
+      Path: Default Work Unit\Binoculars\UnequipSmall
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -90,7 +198,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 894820490cd91040bd3b51f95851f6c4
     GuidInternal: 
-    m_lastTime: -8585896758563154716
+    m_lastTime: -8585895751979877527
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -100,7 +208,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 531aaacde7f69742bb59901cc7f2796b
     GuidInternal: 
-    m_lastTime: -8585896758563084919
+    m_lastTime: -8585895751979737895
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -110,8 +218,39 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 0f8db9a498bf764e8b9f4260ac11c07a
     GuidInternal: 
-    m_lastTime: -8585896758563084919
-    List: []
+    m_lastTime: -8585895748637469024
+    List:
+    - name: PlayerSize
+      guid: 49ff62117aa3ac458854c19d859fd55f
+      id: 4258827653
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PlayerSize
+        ObjectType: 11
+      Path: Default Work Unit\PlayerSize
+      values:
+      - name: Big
+        guid: 9bf7febdaf38a843b5c863a2c406fc31
+        id: 647611021
+        PathAndIcons:
+        - ElementName: Big
+          ObjectType: 10
+      - name: Normal
+        guid: 26fc098ad80e72449f0ed1fa44e94bbb
+        id: 1160234136
+        PathAndIcons:
+        - ElementName: Normal
+          ObjectType: 10
+      - name: Small
+        guid: b3bc257d24f93446a89c56519bf16f4d
+        id: 1846755610
+        PathAndIcons:
+        - ElementName: Small
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
@@ -120,8 +259,13 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 516a7df14b18984182d947bc698ea349
     GuidInternal: 
-    m_lastTime: -8585896758563074946
+    m_lastTime: -8585895751979727923
     List: []
-  ExpandedItems: []
+  ExpandedItems:
+  - /Project-Treasure-Hunt_WwiseProject
+  - /Project-Treasure-Hunt_WwiseProject/Events
+  - /Project-Treasure-Hunt_WwiseProject/Events/Default Work Unit
+  - /Project-Treasure-Hunt_WwiseProject/Events/Default Work Unit/Binoculars
+  - /Project-Treasure-Hunt_WwiseProject/Events/Default Work Unit/Player
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
