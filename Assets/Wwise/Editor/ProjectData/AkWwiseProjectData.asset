@@ -49,7 +49,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: d72922b7949b8c4bbdc30b20b8d331ed
     GuidInternal: 
-    m_lastTime: -8585895907197157296
+    m_lastTime: -8585895905179050467
     List:
     - name: Main
       guid: 8d25ffd57ca5064d9d9dc8fd12e726a6
@@ -68,7 +68,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: c47ce3bd5d7cf74483752563afe76de0
     GuidInternal: 
-    m_lastTime: -8585895907197237327
+    m_lastTime: -8585895905179320099
     List:
     - name: TestEvent
       guid: 5ad2bf39bf96984da53ec8bf0c7e3632
@@ -122,6 +122,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585896758563074946
     List: []
-  ExpandedItems: []
+  ExpandedItems:
+  - /Project-Treasure-Hunt_WwiseProject
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
