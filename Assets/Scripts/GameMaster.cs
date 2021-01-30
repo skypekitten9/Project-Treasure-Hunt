@@ -46,6 +46,7 @@ public class GameMaster : MonoBehaviour
     public void DecreaseLife()
     {
         life--;
+        UI.Instance.DecreaseHeart();
         if(life <= 0)
         {
             Loose();
