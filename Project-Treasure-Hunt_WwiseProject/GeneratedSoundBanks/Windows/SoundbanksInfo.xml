@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="791367466">
+		<SoundBank Id="3161908922" Language="SFX" Hash="216959927">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -144,7 +144,14 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="484553877" Name="SoundtrackStart" ObjectPath="\Events\Default Work Unit\SoundtrackStart" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="484553877" Name="SoundtrackStart" ObjectPath="\Events\Default Work Unit\SoundtrackStart" DurationType="OneShot" DurationMin="68.571419" DurationMax="68.571419">
+					<IncludedMemoryFiles>
+						<File Id="903390988" Language="SFX">
+							<ShortName>TreasureHunted_Soundtrack.wav</ShortName>
+							<Path>SFX\TreasureHunted_Soundtrack_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2277327558" Name="UnequipBig" ObjectPath="\Events\Default Work Unit\Binoculars\UnequipBig" DurationType="OneShot" DurationMin="1.079458" DurationMax="1.079458">
 					<IncludedMemoryFiles>
 						<File Id="690314602" Language="SFX">
