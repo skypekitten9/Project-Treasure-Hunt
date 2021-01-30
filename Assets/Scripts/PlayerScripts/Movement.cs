@@ -15,14 +15,19 @@ public class Movement : MonoBehaviour
     private float moveInput;
     private float checkRadius = 0.25f;
     private float jumpTimerReset;
+    private float damageTimer;
+    private float damageTimerReset;
 
     private bool isGrounded;
     private bool isJumping;
+    public bool isDamaged;
 
 
     Vector2 velocity;
 
-    Rigidbody2D rb;
+    Animator animator;
+
+    public Rigidbody2D rb;
 
     public Transform groundCheck;
 
@@ -31,44 +36,62 @@ public class Movement : MonoBehaviour
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
+        animator = gameObject.GetComponent<Animator>();
 
         jumpReset = extraJumps;
         jumpTimerReset = jumpTimer;
+        damageTimer = 0.35f;
+        damageTimerReset = damageTimer;
+        isDamaged = false;
     }
 
     void Update()
     {
-        Move();
-
-        if (isGrounded && Input.GetKeyDown(KeyCode.Space))
+        if (damageTimer >= 0)
         {
-            Jump();
-            jumpTimer = jumpTimerReset;
+            isDamaged = true;
+        }
+        else
+        {
+            isDamaged = false;
         }
 
-        if (Input.GetKey(KeyCode.Space) && isJumping)
+        if (!isDamaged)
         {
-            if (jumpTimer > 0)
+            Move();
+
+            if (isGrounded && Input.GetKeyDown(KeyCode.Space))
             {
                 Jump();
-                jumpTimer -= Time.deltaTime;
+                jumpTimer = jumpTimerReset;
             }
-            else
+
+            if (Input.GetKey(KeyCode.Space) && isJumping)
+            {
+                if (jumpTimer > 0)
+                {
+                    Jump();
+                    jumpTimer -= Time.deltaTime;
+                }
+                else
+                {
+                    isJumping = false;
+                }
+            }
+
+            if (Input.GetKeyUp(KeyCode.Space))
             {
                 isJumping = false;
             }
-        }
-
-        if (Input.GetKeyUp(KeyCode.Space))
-        {
-            isJumping = false;
-        }
 
 
-        if (isGrounded)
-        {
-            extraJumps = jumpReset;
+            if (isGrounded)
+            {
+                extraJumps = jumpReset;
+            }
         }
+
+        damageTimer -= Time.deltaTime;
     }
 
     private void Move()
@@ -81,10 +104,16 @@ public class Movement : MonoBehaviour
         if (moveInput > 0)
         {
             transform.eulerAngles = new Vector3(0, 0, 0);
+            animator.SetBool("isRunning", true);
         }
         else if (moveInput < 0)
         {
             transform.eulerAngles = new Vector3(0, 180, 0);
+            animator.SetBool("isRunning", true);
+        }
+        else if (moveInput == 0)
+        {
+            animator.SetBool("isRunning", false);
         }
     }
 
@@ -92,5 +121,10 @@ public class Movement : MonoBehaviour
     {
         rb.velocity = new Vector2(rb.velocity.x, 1 * jumpForce);
         isJumping = true;
+    }
+
+    public void ResetDamageTimer()
+    {
+        damageTimer = damageTimerReset;
     }
 }

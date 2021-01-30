@@ -11,6 +11,10 @@ public class EnemyBehaviour : MonoBehaviour
     [Header("Movement values")]
     public float speed;
 
+    [Header("Attack values")]
+    public float knockbackForce;
+    public float attackDamage;
+
     Rigidbody2D rb;
 
     private bool goingRight;
@@ -78,6 +82,32 @@ public class EnemyBehaviour : MonoBehaviour
             {
                 transform.eulerAngles = new Vector3(0, 180, 0);
             }
+        }
+    }
+
+    void Attack(GameObject target)
+    {
+        target.GetComponent<Movement>().ResetDamageTimer();
+        target.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+        GameMaster.Instance.DecreaseLife();
+
+        if (target.transform.position.x < transform.position.x)
+        {
+            target.GetComponent<Movement>().rb.AddForce(Vector2.left * knockbackForce);
+        }
+        else
+        {
+            target.GetComponent<Movement>().rb.AddForce(Vector2.right * knockbackForce);
+        }
+
+        target.GetComponent<Movement>().rb.AddForce(Vector2.up * (knockbackForce / 2));
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            Attack(collision.gameObject);
         }
     }
 }
