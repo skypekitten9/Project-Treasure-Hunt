@@ -89,7 +89,7 @@ public class EnemyBehaviour : MonoBehaviour
     {
         target.GetComponent<Movement>().ResetDamageTimer();
         target.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
-        GameMaster.Instance.DecreaseLife();
+        //GameMaster.Instance.DecreaseLife();
 
         if (target.transform.position.x < transform.position.x)
         {
