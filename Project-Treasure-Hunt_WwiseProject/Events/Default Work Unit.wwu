@@ -3,12 +3,86 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{BDE37CC4-7C5D-44F7-8375-2563AFE76DE0}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="TestEvent" ID="{39BFD25A-96BF-4D98-A53E-C8BF0C7E3632}">
+				<Folder Name="Player" ID="{B87D0EFF-BA61-4751-B24E-B636F017B63B}" ShortID="812343714">
 					<ChildrenList>
-						<Action Name="" ID="{EB923E61-869A-42DE-9AEC-05150096F8DB}" ShortID="135398697">
+						<Event Name="PlayerFootstep" ID="{092BB6BC-FC3E-4FBB-ADFF-2571037EA426}">
+							<ChildrenList>
+								<Action Name="" ID="{B620BC2A-4BA6-48FA-BAF8-6ED3C1A038C2}" ShortID="334574607">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PlayerFootsteps" ID="{B30EF08F-69C9-4DD4-9D08-17D5EEA82310}" WorkUnitID="{12736248-3910-435E-B939-605EC93B110B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PlayerJump" ID="{7DE6BFDA-2BF6-472A-A106-A222135CC336}">
+							<ChildrenList>
+								<Action Name="" ID="{F20FECA4-73C0-4A49-A986-0739288DF919}" ShortID="939267258">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PlayerJump" ID="{138A8970-B414-4FD4-8DA9-0B74F0244D7B}" WorkUnitID="{12736248-3910-435E-B939-605EC93B110B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Binoculars" ID="{C0A30424-E6B6-4016-ABAB-7CEB6F32BBDD}" ShortID="505975175">
+					<ChildrenList>
+						<Event Name="UnequipSmall" ID="{3080E946-8C7B-4144-8B74-FAEB66040913}">
+							<ChildrenList>
+								<Action Name="" ID="{40F6AEF1-19EB-4598-8CDF-43F73878F6FB}" ShortID="129358208">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UnequipSmall" ID="{7791F724-D668-4979-9EB6-758B721AE986}" WorkUnitID="{12736248-3910-435E-B939-605EC93B110B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="BigUnequip" ID="{21DB9CB9-4ECA-47DC-9CCB-C85099B22D43}">
+							<ChildrenList>
+								<Action Name="" ID="{B1875E35-9682-4E24-961B-1CD491DD04E9}" ShortID="65587229">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BigUnequip" ID="{DAF3E817-C108-4164-B785-F95581462200}" WorkUnitID="{12736248-3910-435E-B939-605EC93B110B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SmallUnequip" ID="{DA87BF36-D668-41F4-BE61-0639BF7851B5}">
+							<ChildrenList>
+								<Action Name="" ID="{1ED7E449-AFDF-4414-B3C4-EC576349B144}" ShortID="325458464">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SmallUnequip" ID="{4C130A3F-BBC7-4B7C-85D8-786DD6B498A7}" WorkUnitID="{12736248-3910-435E-B939-605EC93B110B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UnequipBig" ID="{4EBC19DA-E63C-4650-AF73-A35A098B5521}">
+							<ChildrenList>
+								<Action Name="" ID="{E3653951-ECA4-4103-AEAB-5E74E4857072}" ShortID="480446560">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UnequipBig" ID="{382CC541-D1FA-4601-9F8E-A15A2734ADD2}" WorkUnitID="{12736248-3910-435E-B939-605EC93B110B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="SoundtrackStart" ID="{3FD64D85-7DCF-40E2-A3CC-20BFA8E53CC6}">
+					<ChildrenList>
+						<Action Name="" ID="{D926AA0F-3D46-4FF5-AF42-F597412E43B9}" ShortID="177130691">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="PlayerFootsteps1" ID="{C16F0ACD-F5E7-4C35-9BBC-E8FD2DBDC02E}" WorkUnitID="{12736248-3910-435E-B939-605EC93B110B}"/>
+									<ObjectRef Name="TreasureHunted_Soundtrack" ID="{77667BCB-3E4C-4921-93E6-C4D25CA6C51A}" WorkUnitID="{12736248-3910-435E-B939-605EC93B110B}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
