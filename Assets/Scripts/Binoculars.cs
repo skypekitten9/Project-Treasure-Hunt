@@ -118,16 +118,20 @@ public class Binoculars : MonoBehaviour
             {
                 StartCoroutine(Scale(scaleDown, state));
                 state = BinocularsState.reversed; //equiped
+                AkSoundEngine.PostEvent("BigUnequip", this.gameObject);
             }
             else
             {
                 StartCoroutine(Scale(scaleUp, state));
                 state = BinocularsState.equiped; //reversed
+                AkSoundEngine.PostEvent("SmallUnequip", this.gameObject);
             }
            
         }
         else
         {
+            if(state == BinocularsState.equiped) AkSoundEngine.PostEvent("BigUnequip", this.gameObject);
+            else AkSoundEngine.PostEvent("SmallUnequip", this.gameObject);
             StartCoroutine(Scale(originalScale, state)); //unqeuip 
             state = BinocularsState.unequiped;
         }
@@ -141,12 +145,14 @@ public class Binoculars : MonoBehaviour
             StartCoroutine(Scale(scaleUp, state));
             state = BinocularsState.equiped; //equiped
             reversed = false;
+            AkSoundEngine.PostEvent("SmallUnequip", this.gameObject);
         }
         else
         {
             StartCoroutine(Scale(scaleDown, state));
             state = BinocularsState.reversed; //reversed
             reversed = true;
+            AkSoundEngine.PostEvent("BigUnequip", this.gameObject);
         }
     }
 
