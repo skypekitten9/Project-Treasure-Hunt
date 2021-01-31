@@ -136,6 +136,21 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Enemy" ID="{8FABC580-D7BE-4B26-B327-F417498C6DFE}" ShortID="538562184">
+					<ChildrenList>
+						<Event Name="EnemyFootstep" ID="{82F1DA48-26F6-4B1A-A99B-330BD077C3CA}">
+							<ChildrenList>
+								<Action Name="" ID="{65E469F6-EE19-4D8E-9E3A-70D7E043C33B}" ShortID="295349225">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EnemyFootstep" ID="{65C6989F-912E-46BB-9CA2-DC54BCFED565}" WorkUnitID="{12736248-3910-435E-B939-605EC93B110B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

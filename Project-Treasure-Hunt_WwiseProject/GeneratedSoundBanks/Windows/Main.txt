@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	484553877	SoundtrackStart			\Default Work Unit\Music\SoundtrackStart	
+	534259801	EnemyFootstep			\Default Work Unit\Enemy\EnemyFootstep	
 	821159926	Slam			\Default Work Unit\Player\Slam	
 	841125737	UnequipSmall			\Default Work Unit\Binoculars\UnequipSmall	
 	1675614853	GameWon			\Default Work Unit\Music\GameWon	
@@ -27,6 +28,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	222884942	PlayerHurtSmall4	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\PlayerHurtSmall4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerHurt\PlayerHurtSmall\PlayerHurtSmall4		32704
 	227294564	SmallUnequip	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\SmallUnequip_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Binoculars\SmallUnequip		101988
 	252891759	PlayerFootstepBig1	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\PlayerFootstepBig1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerFootsteps\PlayerFootstepsBig\PlayerFootstepBig1		71436
+	261191662	EnemyFootstep3	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\EnemyFootstep3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\EnemyFootstep\EnemyFootstep3		19916
 	271035172	PlayerHurtBig2	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\PlayerHurtBig2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerHurt\PlayerHurtBig\PlayerHurtBig2		65036
 	281584974	PlayerHurtNormal1	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\PlayerHurtNormal1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerHurt\PlayerHurtNormal\PlayerHurtNormal1		16568
 	344841291	PlayerFootstepBig4	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\PlayerFootstepBig4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerFootsteps\PlayerFootstepsBig\PlayerFootstepBig4		79436
@@ -50,8 +52,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	893103935	PlayerHurtBig1	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\PlayerHurtBig1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerHurt\PlayerHurtBig\PlayerHurtBig1		63836
 	903390988	Soundtrack	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\TreasureHunted_Soundtrack_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Soundtrack		13165776
 	903432915	PlayerFootstepBig3	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\PlayerFootstepBig3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerFootsteps\PlayerFootstepsBig\PlayerFootstepBig3		75908
+	908694955	EnemyFootstep1	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\EnemyFootstep1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\EnemyFootstep\EnemyFootstep1		28372
 	909978063	PlayerHurtSmall2	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\PlayerHurtSmall2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerHurt\PlayerHurtSmall\PlayerHurtSmall2		35584
 	918644030	PlayerFootstep3	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\PlayerFootstep3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerFootsteps\PlayerFootstepsNormal\PlayerFootstep3		12544
 	921230088	PlayerJumpBig	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\PlayerJumpBig_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerJump\PlayerJumpBig		25024
 	928482621	PlayerFootstepBig2	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\PlayerFootstepBig2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerFootsteps\PlayerFootstepsBig\PlayerFootstepBig2		73940
+	1005187744	EnemyFootstep2	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\EnemyFootstep2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\EnemyFootstep\EnemyFootstep2		34308
 

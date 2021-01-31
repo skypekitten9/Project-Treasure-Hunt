@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2809152693">
+		<SoundBank Id="3161908922" Language="SFX" Hash="414706701">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -26,6 +26,22 @@
 						<File Id="773939083" Language="SFX">
 							<ShortName>BigUnequip.wav</ShortName>
 							<Path>SFX\BigUnequip_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="534259801" Name="EnemyFootstep" ObjectPath="\Events\Default Work Unit\Enemy\EnemyFootstep" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="0.206792" DurationMax="0.356708">
+					<IncludedMemoryFiles>
+						<File Id="261191662" Language="SFX">
+							<ShortName>EnemyFootstep3.wav</ShortName>
+							<Path>SFX\EnemyFootstep3_10C4C929.wem</Path>
+						</File>
+						<File Id="908694955" Language="SFX">
+							<ShortName>EnemyFootstep1.wav</ShortName>
+							<Path>SFX\EnemyFootstep1_10C4C929.wem</Path>
+						</File>
+						<File Id="1005187744" Language="SFX">
+							<ShortName>EnemyFootstep2.wav</ShortName>
+							<Path>SFX\EnemyFootstep2_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID BIGUNEQUIP = 4239201732U;
+        static const AkUniqueID ENEMYFOOTSTEP = 534259801U;
         static const AkUniqueID GAMEOVER = 4158285989U;
         static const AkUniqueID GAMEWON = 1675614853U;
         static const AkUniqueID PLAYERFOOTSTEP = 3542290436U;
