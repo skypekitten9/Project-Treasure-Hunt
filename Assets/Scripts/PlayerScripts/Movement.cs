@@ -108,8 +108,15 @@ public class Movement : MonoBehaviour
         {
             if (rb.velocity.y >= 0)
             {
-                Physics2D.OverlapCircle(groundCheck.position, 5f, targetsToSlam).GetComponent<EnemyBehaviour>().Knockup();
-                isSlaming = false;
+                if (Physics2D.OverlapCircle(groundCheck.position, 2.5f, targetsToSlam) != null)
+                {
+                    Physics2D.OverlapCircle(groundCheck.position, 2.5f, targetsToSlam).GetComponent<EnemyBehaviour>().Knockup();
+                    isSlaming = false;
+                }
+                else
+                {
+                    isSlaming = false;
+                }
             }
         }
 
