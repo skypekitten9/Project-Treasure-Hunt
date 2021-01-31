@@ -83,16 +83,16 @@ public class EnemyBehaviour : MonoBehaviour
 
     void ObstacleCheck()
     {
-        RaycastHit2D obstacleData = Physics2D.Raycast(obstacleDetection.position, Vector2.down, rayDistance);
+        RaycastHit2D obstacleData = Physics2D.Raycast(obstacleDetection.position, Vector2.down, rayDistance * 2);
         RaycastHit2D forwardData;
 
         if (goingRight)
         {
-            forwardData = Physics2D.Raycast(obstacleDetection.position, Vector2.right, rayDistance, whatIsTerrain);
+            forwardData = Physics2D.Raycast(obstacleDetection.position, Vector2.right, rayDistance - 1, whatIsTerrain);
         }
         else
         {
-            forwardData = Physics2D.Raycast(obstacleDetection.position, Vector2.left, rayDistance, whatIsTerrain);
+            forwardData = Physics2D.Raycast(obstacleDetection.position, Vector2.left, rayDistance - 1, whatIsTerrain);
         }
 
         if (obstacleData.collider == false || forwardData.collider == true && obstacleData.collider == true)
