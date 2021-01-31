@@ -20,6 +20,8 @@ public class EnemyBehaviour : MonoBehaviour
 
     Rigidbody2D rb;
 
+    public LayerMask whatIsTerrain;
+
     private bool goingRight;
 
     enum BehaviourState
@@ -82,8 +84,18 @@ public class EnemyBehaviour : MonoBehaviour
     void ObstacleCheck()
     {
         RaycastHit2D obstacleData = Physics2D.Raycast(obstacleDetection.position, Vector2.down, rayDistance);
+        RaycastHit2D forwardData;
 
-        if (obstacleData.collider == false)
+        if (goingRight)
+        {
+            forwardData = Physics2D.Raycast(obstacleDetection.position, Vector2.right, rayDistance, whatIsTerrain);
+        }
+        else
+        {
+            forwardData = Physics2D.Raycast(obstacleDetection.position, Vector2.left, rayDistance, whatIsTerrain);
+        }
+
+        if (obstacleData.collider == false || forwardData.collider == true && obstacleData.collider == true)
         {
             goingRight = !goingRight;
 
@@ -102,18 +114,56 @@ public class EnemyBehaviour : MonoBehaviour
     {
         target.GetComponent<Movement>().ResetDamageTimer();
         target.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
-        //GameMaster.Instance.DecreaseLife();
 
         if (target.transform.position.x < transform.position.x)
         {
-            target.GetComponent<Movement>().rb.AddForce(Vector2.left * knockbackForce);
+            if (Binoculars.Instance.State == BinocularsState.equiped)
+            {
+                target.GetComponent<Movement>().rb.AddForce(Vector2.left * knockbackForce * 2.5f);
+                GameMaster.Instance.DecreaseLife();
+            }
+            else if (Binoculars.Instance.State == BinocularsState.reversed)
+            {
+                target.GetComponent<Movement>().rb.AddForce(Vector2.left * knockbackForce * 0.5f);
+                GameMaster.Instance.DecreaseLife();
+            }
+            else
+            {
+                target.GetComponent<Movement>().rb.AddForce(Vector2.left * knockbackForce);
+                GameMaster.Instance.DecreaseLife();
+            }
         }
         else
         {
-            target.GetComponent<Movement>().rb.AddForce(Vector2.right * knockbackForce);
+            if (Binoculars.Instance.State == BinocularsState.equiped)
+            {
+                target.GetComponent<Movement>().rb.AddForce(Vector2.right * knockbackForce * 5f);
+                GameMaster.Instance.DecreaseLife();
+            }
+            else if (Binoculars.Instance.State == BinocularsState.reversed)
+            {
+                target.GetComponent<Movement>().rb.AddForce(Vector2.right * knockbackForce * 0.35f);
+                GameMaster.Instance.DecreaseLife();
+            }
+            else
+            {
+                target.GetComponent<Movement>().rb.AddForce(Vector2.right * knockbackForce);
+                GameMaster.Instance.DecreaseLife();
+            }
         }
 
-        target.GetComponent<Movement>().rb.AddForce(Vector2.up * (knockbackForce / 2));
+        if (Binoculars.Instance.State == BinocularsState.equiped)
+        {
+            target.GetComponent<Movement>().rb.AddForce(Vector2.up * knockbackForce  * 5);
+        }
+        else if (Binoculars.Instance.State == BinocularsState.reversed)
+        {
+            target.GetComponent<Movement>().rb.AddForce(Vector2.up * (knockbackForce / 8));
+        }
+        else
+        {
+            target.GetComponent<Movement>().rb.AddForce(Vector2.up * (knockbackForce / 2));
+        }
     }
 
     public void Knockup()
@@ -128,7 +178,7 @@ public class EnemyBehaviour : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "Player" && !collision.gameObject.GetComponent<Movement>().isDamaged)
         {
             Attack(collision.gameObject);
         }

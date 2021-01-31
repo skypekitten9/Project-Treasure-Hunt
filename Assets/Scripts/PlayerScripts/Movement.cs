@@ -46,7 +46,7 @@ public class Movement : MonoBehaviour
 
         jumpReset = extraJumps;
         jumpTimerReset = jumpTimer;
-        damageTimer = 0.35f;
+        damageTimer = 0.5f;
         damageTimerReset = damageTimer;
         isDamaged = false;
         originalSpeed = speed;
@@ -65,7 +65,7 @@ public class Movement : MonoBehaviour
 
         AlterProperties();
 
-        if (!isDamaged || !isSlaming)
+        if (!isDamaged && !isSlaming)
         {
             Move();
 
