@@ -48,25 +48,54 @@ public class Binoculars : MonoBehaviour
         //equip or turn if possible
         if(Input.GetMouseButtonDown(0) && !busy)
         {
-            if(state == BinocularsState.unequiped)
-            {
-                ToggleBinoculars();
-            }
-            else
+            if (state == BinocularsState.reversed)
             {
                 TurnBinoculars();
             }
+            else if (state == BinocularsState.unequiped)
+            {
+                reversed = false;
+                ToggleBinoculars();
+            }
+            
+            //if (state == BinocularsState.unequiped)
+            //{
+            //    reversed = false;
+            //    ToggleBinoculars();
+            //}
+            //else
+            //{
+               
+            //    TurnBinoculars();
+            //}
+
         }
 
         //unequip if possible
         else if(Input.GetMouseButtonDown(1) && !busy)
         {
-            if (state == BinocularsState.equiped || state == BinocularsState.reversed)
+            if (state == BinocularsState.equiped)
+            {
+                TurnBinoculars();
+            }
+            else if(state == BinocularsState.unequiped)
+            {
+                reversed = true;
+                ToggleBinoculars();
+            }
+            //if (state == BinocularsState.equiped || state == BinocularsState.reversed)
+            //{
+            //    ToggleBinoculars();
+            //}
+        }
+
+        else if (Input.GetMouseButtonDown(2) && !busy)
+        {
+            if (state != BinocularsState.unequiped)
             {
                 ToggleBinoculars();
             }
         }
-        
     }
 
     void ToggleBinoculars()
