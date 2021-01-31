@@ -40,11 +40,13 @@ public class GameMaster : MonoBehaviour
 
     public void Win()
     {
+        AkSoundEngine.PostEvent("GameWon", this.gameObject);
         NextLevel();
     }
 
     public void DecreaseLife()
     {
+        AkSoundEngine.PostEvent("PlayerHurt", this.gameObject);
         life--;
         UI.Instance.DecreaseHeart();
         if(life <= 0)
@@ -55,6 +57,7 @@ public class GameMaster : MonoBehaviour
 
     public void Loose()
     {
+        AkSoundEngine.PostEvent("GameOver", this.gameObject);
         ResetLevel();
     }
 

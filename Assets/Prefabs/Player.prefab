@@ -231,6 +231,7 @@ MonoBehaviour:
   equipedModel: {fileID: 1673105605643297413}
   unequipedModel: {fileID: 8314295035360663383}
   reversedModel: {fileID: 8575626407591492047}
+  sound: {fileID: 3954840511110633514}
   scaleUp: {x: 2, y: 2}
   scaleDown: {x: 0.5, y: 0.5}
   timeScale: 2
