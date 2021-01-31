@@ -7,7 +7,7 @@ public class GameMaster : MonoBehaviour
 {
     private static GameMaster instance = null;
     public static GameMaster Instance { get { return instance; } }
-    public int life;
+    public int life, sceneAmount;
 
     int sceneIndex = 0;
 
@@ -70,6 +70,7 @@ public class GameMaster : MonoBehaviour
     public void NextLevel()
     {
         sceneIndex++;
+        if (sceneIndex >= sceneAmount) sceneIndex--;
         life = 3;
         SceneManager.LoadScene(sceneIndex);
     }
