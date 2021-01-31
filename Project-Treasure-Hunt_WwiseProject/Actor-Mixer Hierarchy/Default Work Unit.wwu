@@ -51,7 +51,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="PlayerFootstep1" ID="{5D008DCE-95EE-414D-8A4C-757F30B8D26A}" ShortID="256965658">
+										<Sound Name="PlayerFootstep1" ID="{40221E01-06BE-4061-990E-F9D0058421EE}" ShortID="781493372">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
@@ -68,7 +68,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="PlayerFootstep1" ID="{6130F1A9-6432-4118-8DB7-4CB2636815FE}">
+												<AudioFileSource Name="PlayerFootstep1" ID="{17EC3EE6-3966-4B67-81DC-5AB9CDF4780A}">
 													<Language>SFX</Language>
 													<AudioFile>PlayerFootstep1.wav</AudioFile>
 													<MediaIDList>
@@ -77,10 +77,10 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="PlayerFootstep1" ID="{6130F1A9-6432-4118-8DB7-4CB2636815FE}" Platform="Linked"/>
+												<ActiveSource Name="PlayerFootstep1" ID="{17EC3EE6-3966-4B67-81DC-5AB9CDF4780A}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="PlayerFootstep2" ID="{9EFE9EC1-42B3-4A35-AFE9-3A68E7231366}" ShortID="812921638">
+										<Sound Name="PlayerFootstep2" ID="{EF17F665-4927-4777-9838-ED829C04BE9A}" ShortID="123359407">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
@@ -97,7 +97,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="PlayerFootstep2" ID="{912532FE-F4A3-4D96-BF0E-ADCB7C9622B9}">
+												<AudioFileSource Name="PlayerFootstep2" ID="{F12D2A9B-CB1C-4A4F-BC3E-91E5BB56F07D}">
 													<Language>SFX</Language>
 													<AudioFile>PlayerFootstep2.wav</AudioFile>
 													<MediaIDList>
@@ -106,10 +106,10 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="PlayerFootstep2" ID="{912532FE-F4A3-4D96-BF0E-ADCB7C9622B9}" Platform="Linked"/>
+												<ActiveSource Name="PlayerFootstep2" ID="{F12D2A9B-CB1C-4A4F-BC3E-91E5BB56F07D}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="PlayerFootstep3" ID="{C1688CEB-6642-446C-84F9-61D56A906791}" ShortID="228067796">
+										<Sound Name="PlayerFootstep3" ID="{0DF83E5D-E971-4A5E-8118-5200E5BD6847}" ShortID="504801891">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
@@ -126,7 +126,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="PlayerFootstep3" ID="{09D9C0B9-FEBF-4679-91C0-0437B72840DA}">
+												<AudioFileSource Name="PlayerFootstep3" ID="{DD212172-3724-496A-B5D2-04A40D053D3C}">
 													<Language>SFX</Language>
 													<AudioFile>PlayerFootstep3.wav</AudioFile>
 													<MediaIDList>
@@ -135,10 +135,10 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="PlayerFootstep3" ID="{09D9C0B9-FEBF-4679-91C0-0437B72840DA}" Platform="Linked"/>
+												<ActiveSource Name="PlayerFootstep3" ID="{DD212172-3724-496A-B5D2-04A40D053D3C}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="PlayerFootstep4" ID="{8BE87000-BEA5-48DA-9E88-B4DDB759FD27}" ShortID="646312018">
+										<Sound Name="PlayerFootstep4" ID="{B43A95B8-DFE8-4765-9860-4FEFE815B124}" ShortID="451870245">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
@@ -155,7 +155,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="PlayerFootstep4" ID="{36D7CC2E-C8EB-4222-B628-081703FD8E40}">
+												<AudioFileSource Name="PlayerFootstep4" ID="{A6C9AE0E-F211-441A-97B1-B0B5EC211698}">
 													<Language>SFX</Language>
 													<AudioFile>PlayerFootstep4.wav</AudioFile>
 													<MediaIDList>
@@ -164,7 +164,7 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="PlayerFootstep4" ID="{36D7CC2E-C8EB-4222-B628-081703FD8E40}" Platform="Linked"/>
+												<ActiveSource Name="PlayerFootstep4" ID="{A6C9AE0E-F211-441A-97B1-B0B5EC211698}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -199,7 +199,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="PlayerFootstepBig1" ID="{4B07DD80-DFED-4774-999A-32B3A37EE63C}" ShortID="121834523">
+										<Sound Name="PlayerFootstepBig1" ID="{5FF56920-02D0-4792-A903-DB77D16D7194}" ShortID="726162835">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
@@ -209,7 +209,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="PlayerFootstepBig1" ID="{7F2F99B9-53AE-4D8D-A43E-CB4A5ED6E39C}">
+												<AudioFileSource Name="PlayerFootstepBig1" ID="{9FB434F5-5D36-4059-83B4-588D8062B56C}">
 													<Language>SFX</Language>
 													<AudioFile>PlayerFootstepBig1.wav</AudioFile>
 													<MediaIDList>
@@ -218,10 +218,10 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="PlayerFootstepBig1" ID="{7F2F99B9-53AE-4D8D-A43E-CB4A5ED6E39C}" Platform="Linked"/>
+												<ActiveSource Name="PlayerFootstepBig1" ID="{9FB434F5-5D36-4059-83B4-588D8062B56C}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="PlayerFootstepBig2" ID="{297D9C43-8373-401D-8971-E489BBF47199}" ShortID="429306968">
+										<Sound Name="PlayerFootstepBig2" ID="{8A51FE3D-6CCE-4B7E-AF75-DF123241464A}" ShortID="470890944">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
@@ -231,7 +231,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="PlayerFootstepBig2" ID="{B05CD268-8547-445F-877A-277FB3360E8C}">
+												<AudioFileSource Name="PlayerFootstepBig2" ID="{A860CEAD-A776-4C83-A35C-89FC128A5318}">
 													<Language>SFX</Language>
 													<AudioFile>PlayerFootstepBig2.wav</AudioFile>
 													<MediaIDList>
@@ -240,10 +240,10 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="PlayerFootstepBig2" ID="{B05CD268-8547-445F-877A-277FB3360E8C}" Platform="Linked"/>
+												<ActiveSource Name="PlayerFootstepBig2" ID="{A860CEAD-A776-4C83-A35C-89FC128A5318}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="PlayerFootstepBig3" ID="{C2655D37-96F8-4D82-A160-4B3F491A6908}" ShortID="615682203">
+										<Sound Name="PlayerFootstepBig3" ID="{94D8EFA2-8AF6-4483-9E12-51D742FA193C}" ShortID="13336661">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
@@ -253,7 +253,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="PlayerFootstepBig3" ID="{1AD0E7E9-EA7B-4803-89A2-FC463F5F5343}">
+												<AudioFileSource Name="PlayerFootstepBig3" ID="{EFED4815-62BF-4B5F-92D4-F8A855AB769F}">
 													<Language>SFX</Language>
 													<AudioFile>PlayerFootstepBig3.wav</AudioFile>
 													<MediaIDList>
@@ -262,10 +262,10 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="PlayerFootstepBig3" ID="{1AD0E7E9-EA7B-4803-89A2-FC463F5F5343}" Platform="Linked"/>
+												<ActiveSource Name="PlayerFootstepBig3" ID="{EFED4815-62BF-4B5F-92D4-F8A855AB769F}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="PlayerFootstepBig4" ID="{C18793E2-DD00-4062-8951-9397C4FB9CB4}" ShortID="429245462">
+										<Sound Name="PlayerFootstepBig4" ID="{95712685-06B0-453B-A785-8F6875AB853C}" ShortID="960071087">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
@@ -275,7 +275,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="PlayerFootstepBig4" ID="{45400B3F-4DC2-4C6C-B815-C1F627450B4A}">
+												<AudioFileSource Name="PlayerFootstepBig4" ID="{A158BF1C-E4B2-4E74-BDEF-5C24D1FCFD92}">
 													<Language>SFX</Language>
 													<AudioFile>PlayerFootstepBig4.wav</AudioFile>
 													<MediaIDList>
@@ -284,7 +284,7 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="PlayerFootstepBig4" ID="{45400B3F-4DC2-4C6C-B815-C1F627450B4A}" Platform="Linked"/>
+												<ActiveSource Name="PlayerFootstepBig4" ID="{A158BF1C-E4B2-4E74-BDEF-5C24D1FCFD92}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -319,7 +319,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="PlayerFootstepSmall1" ID="{D2518CEF-42A2-45F8-B9E9-EC666EA57678}" ShortID="25508090">
+										<Sound Name="PlayerFootstepSmall1" ID="{3584485B-E994-4B58-9322-D34DDBAAC033}" ShortID="794997259">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
@@ -329,7 +329,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="PlayerFootstepSmall1" ID="{E2C5FDC9-F49B-42FD-9ACC-3AFE79A2F1D2}">
+												<AudioFileSource Name="PlayerFootstepSmall1" ID="{45A635CD-7735-4FEF-BB0D-D2B1FC09B971}">
 													<Language>SFX</Language>
 													<AudioFile>PlayerFootstepSmall1.wav</AudioFile>
 													<MediaIDList>
@@ -338,10 +338,10 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="PlayerFootstepSmall1" ID="{E2C5FDC9-F49B-42FD-9ACC-3AFE79A2F1D2}" Platform="Linked"/>
+												<ActiveSource Name="PlayerFootstepSmall1" ID="{45A635CD-7735-4FEF-BB0D-D2B1FC09B971}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="PlayerFootstepSmall2" ID="{37E35DB5-2106-45D6-9003-5D0DD90B4767}" ShortID="810011423">
+										<Sound Name="PlayerFootstepSmall2" ID="{3DBF27D8-89BD-4A33-B0AB-45D890B49495}" ShortID="650934383">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
@@ -351,7 +351,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="PlayerFootstepSmall2" ID="{DA170068-12F0-477F-9D1B-B0A32E81305B}">
+												<AudioFileSource Name="PlayerFootstepSmall2" ID="{11448375-326E-467E-AC86-856929843289}">
 													<Language>SFX</Language>
 													<AudioFile>PlayerFootstepSmall2.wav</AudioFile>
 													<MediaIDList>
@@ -360,10 +360,10 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="PlayerFootstepSmall2" ID="{DA170068-12F0-477F-9D1B-B0A32E81305B}" Platform="Linked"/>
+												<ActiveSource Name="PlayerFootstepSmall2" ID="{11448375-326E-467E-AC86-856929843289}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="PlayerFootstepSmall3" ID="{A66B7497-C3B7-4544-A028-88C09B74924B}" ShortID="642034670">
+										<Sound Name="PlayerFootstepSmall3" ID="{0790A71B-82CB-4727-935D-7ED90826CF86}" ShortID="625855783">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
@@ -373,7 +373,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="PlayerFootstepSmall3" ID="{83E532B2-91DC-46F8-ADEF-05CADBC4943E}">
+												<AudioFileSource Name="PlayerFootstepSmall3" ID="{53715C61-5FBB-47F9-B062-DDBDA442A531}">
 													<Language>SFX</Language>
 													<AudioFile>PlayerFootstepSmall3.wav</AudioFile>
 													<MediaIDList>
@@ -382,7 +382,7 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="PlayerFootstepSmall3" ID="{83E532B2-91DC-46F8-ADEF-05CADBC4943E}" Platform="Linked"/>
+												<ActiveSource Name="PlayerFootstepSmall3" ID="{53715C61-5FBB-47F9-B062-DDBDA442A531}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -427,6 +427,9 @@
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
 								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Normal" ID="{8A09FC26-0ED8-4472-9F0E-D1FA44E94BBB}" WorkUnitID="{A4B98D0F-BF98-4E76-8B9F-4260AC11C07A}"/>
+								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DC8CDB0-8962-461B-92F7-6C5216BCD536}"/>
 								</Reference>
@@ -435,11 +438,11 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="PlayerJump" ID="{A33E76CD-71A4-4361-AB38-04EAF3D206C0}" ShortID="1056547373">
+								<Sound Name="PlayerJump" ID="{C36643D6-03A9-4488-AC54-B776E7970F8E}" ShortID="377594150">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>4</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -452,7 +455,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="PlayerJump" ID="{3C4FBD1F-0424-45C8-9496-949CACAF2E00}">
+										<AudioFileSource Name="PlayerJump" ID="{8CACD49C-F4BD-41A8-B7DE-8A15CE8850F8}">
 											<Language>SFX</Language>
 											<AudioFile>PlayerJump.wav</AudioFile>
 											<MediaIDList>
@@ -461,14 +464,14 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="PlayerJump" ID="{3C4FBD1F-0424-45C8-9496-949CACAF2E00}" Platform="Linked"/>
+										<ActiveSource Name="PlayerJump" ID="{8CACD49C-F4BD-41A8-B7DE-8A15CE8850F8}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="PlayerJumpBig" ID="{5A6BA019-1EE6-491C-9773-414041A9A894}" ShortID="296032555">
+								<Sound Name="PlayerJumpBig" ID="{F7E011D0-685D-46EA-9399-51A6C3152E31}" ShortID="417149114">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>9</Value>
+												<Value>10</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -481,7 +484,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="PlayerJumpBig" ID="{EBE42B6E-8D7D-4896-9F6B-7C719D109590}">
+										<AudioFileSource Name="PlayerJumpBig" ID="{E7D53157-EA70-4806-9336-D8BC93A3B4B0}">
 											<Language>SFX</Language>
 											<AudioFile>PlayerJumpBig.wav</AudioFile>
 											<MediaIDList>
@@ -490,10 +493,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="PlayerJumpBig" ID="{EBE42B6E-8D7D-4896-9F6B-7C719D109590}" Platform="Linked"/>
+										<ActiveSource Name="PlayerJumpBig" ID="{E7D53157-EA70-4806-9336-D8BC93A3B4B0}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="PlayerJumpSmall" ID="{FD3314C8-650E-40F6-A063-A8E04E26EFE0}" ShortID="269636012">
+								<Sound Name="PlayerJumpSmall" ID="{AF0A44AF-E1D4-409F-99D5-536D6977114E}" ShortID="891912668">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
@@ -510,7 +513,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="PlayerJumpSmall" ID="{A2BEC7CD-98C8-4CAC-B96C-DEC9B283DBDA}">
+										<AudioFileSource Name="PlayerJumpSmall" ID="{381F06C9-039B-49F3-97A5-FFBF88AB9378}">
 											<Language>SFX</Language>
 											<AudioFile>PlayerJumpSmall.wav</AudioFile>
 											<MediaIDList>
@@ -519,29 +522,499 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="PlayerJumpSmall" ID="{A2BEC7CD-98C8-4CAC-B96C-DEC9B283DBDA}" Platform="Linked"/>
+										<ActiveSource Name="PlayerJumpSmall" ID="{381F06C9-039B-49F3-97A5-FFBF88AB9378}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
 									<GroupingBehavior>
-										<ItemRef Name="PlayerJumpBig" ID="{5A6BA019-1EE6-491C-9773-414041A9A894}"/>
+										<ItemRef Name="PlayerJumpSmall" ID="{AF0A44AF-E1D4-409F-99D5-536D6977114E}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="PlayerJumpSmall" ID="{FD3314C8-650E-40F6-A063-A8E04E26EFE0}"/>
+										<ItemRef Name="PlayerJumpBig" ID="{F7E011D0-685D-46EA-9399-51A6C3152E31}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="PlayerJump" ID="{A33E76CD-71A4-4361-AB38-04EAF3D206C0}"/>
+										<ItemRef Name="PlayerJump" ID="{C36643D6-03A9-4488-AC54-B776E7970F8E}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Normal" ID="{8A09FC26-0ED8-4472-9F0E-D1FA44E94BBB}"/>
+										<ItemList>
+											<ItemRef Name="PlayerJump" ID="{C36643D6-03A9-4488-AC54-B776E7970F8E}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Big" ID="{BDFEF79B-38AF-43A8-B5C8-63A2C406FC31}"/>
+										<ItemList>
+											<ItemRef Name="PlayerJumpBig" ID="{F7E011D0-685D-46EA-9399-51A6C3152E31}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Small" ID="{7D25BCB3-F924-4634-A89C-56519BF16F4D}"/>
+										<ItemList>
+											<ItemRef Name="PlayerJumpSmall" ID="{AF0A44AF-E1D4-409F-99D5-536D6977114E}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<Sound Name="PlayerSlam" ID="{F147F8A7-BD6D-4386-8103-8D54AE163510}" ShortID="888876524">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DC8CDB0-8962-461B-92F7-6C5216BCD536}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PlayerSlam" ID="{885D1B38-320E-40B8-B804-CF8F29A1BEF7}">
+									<Language>SFX</Language>
+									<AudioFile>PlayerSlam.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="104014789"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PlayerSlam" ID="{885D1B38-320E-40B8-B804-CF8F29A1BEF7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<SwitchContainer Name="PlayerHurt" ID="{11A5E25C-E4BB-4D63-8E41-9F4BDFB09DAF}" ShortID="673551097">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Normal" ID="{8A09FC26-0ED8-4472-9F0E-D1FA44E94BBB}" WorkUnitID="{A4B98D0F-BF98-4E76-8B9F-4260AC11C07A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DC8CDB0-8962-461B-92F7-6C5216BCD536}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="PlayerSize" ID="{1162FF49-A37A-45AC-8854-C19D859FD55F}" WorkUnitID="{A4B98D0F-BF98-4E76-8B9F-4260AC11C07A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="PlayerHurtSmall" ID="{620107B0-E64A-48ED-A27F-14A0025A774B}" ShortID="224172510">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DC8CDB0-8962-461B-92F7-6C5216BCD536}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="PlayerHurtSmall1" ID="{9D27B5EB-8233-42B7-8A23-3CB87D3FE518}" ShortID="378775987">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DC8CDB0-8962-461B-92F7-6C5216BCD536}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PlayerHurtSmall1" ID="{D716E16E-CFF0-459B-9937-EB640FAACB22}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerHurtSmall1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="609207972"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PlayerHurtSmall1" ID="{D716E16E-CFF0-459B-9937-EB640FAACB22}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PlayerHurtSmall2" ID="{84802EB0-9F57-4213-836A-79923B9D153F}" ShortID="122748732">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DC8CDB0-8962-461B-92F7-6C5216BCD536}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PlayerHurtSmall2" ID="{91C2CE71-37CA-49EA-8B4E-6AD6554B1C77}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerHurtSmall2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="909978063"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PlayerHurtSmall2" ID="{91C2CE71-37CA-49EA-8B4E-6AD6554B1C77}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PlayerHurtSmall3" ID="{2DDED8D2-2B86-4712-940C-FA6498AD7C40}" ShortID="1019772320">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DC8CDB0-8962-461B-92F7-6C5216BCD536}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PlayerHurtSmall3" ID="{9A9E3088-D57D-4AD0-9904-192D283CF4D2}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerHurtSmall3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="620364533"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PlayerHurtSmall3" ID="{9A9E3088-D57D-4AD0-9904-192D283CF4D2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PlayerHurtSmall4" ID="{C8BB5B07-B26E-4182-A2F2-A2FB8A44D3F4}" ShortID="564505506">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DC8CDB0-8962-461B-92F7-6C5216BCD536}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PlayerHurtSmall4" ID="{8F5A65E0-8C04-465B-8350-63BD1957E231}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerHurtSmall4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="222884942"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PlayerHurtSmall4" ID="{8F5A65E0-8C04-465B-8350-63BD1957E231}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="PlayerHurtNormal" ID="{4C7F52BF-788C-45A8-97AC-2C6987536D90}" ShortID="98121930">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DC8CDB0-8962-461B-92F7-6C5216BCD536}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="PlayerHurtNormal1" ID="{FDEED324-09C3-4DDB-90AF-B4A4574921B8}" ShortID="1063864538">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DC8CDB0-8962-461B-92F7-6C5216BCD536}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PlayerHurtNormal1" ID="{9348BEBE-660E-426F-9A58-A15C75B0CE53}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerHurtNormal1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="281584974"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PlayerHurtNormal1" ID="{9348BEBE-660E-426F-9A58-A15C75B0CE53}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PlayerHurtNormal2" ID="{EBE66FEC-C6C3-460B-AA64-7F1517998A07}" ShortID="778465223">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DC8CDB0-8962-461B-92F7-6C5216BCD536}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PlayerHurtNormal2" ID="{4C254611-F135-4E47-B62C-5475F0755227}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerHurtNormal2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="34549169"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PlayerHurtNormal2" ID="{4C254611-F135-4E47-B62C-5475F0755227}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PlayerHurtNormal3" ID="{7079EBD3-60B7-4811-9E58-D5392A92A0EE}" ShortID="115754337">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DC8CDB0-8962-461B-92F7-6C5216BCD536}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PlayerHurtNormal3" ID="{50E36CBF-0464-47CF-9B8C-9EA34FA428D9}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerHurtNormal3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="520856155"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PlayerHurtNormal3" ID="{50E36CBF-0464-47CF-9B8C-9EA34FA428D9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PlayerHurtNormal4" ID="{0AD8CFEC-1F3D-48DB-8459-1D1E70E5A657}" ShortID="714390001">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DC8CDB0-8962-461B-92F7-6C5216BCD536}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PlayerHurtNormal4" ID="{84A071A9-7F70-479F-AD23-28D2CD1205BE}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerHurtNormal4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="816368763"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PlayerHurtNormal4" ID="{84A071A9-7F70-479F-AD23-28D2CD1205BE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="PlayerHurtBig" ID="{3A7647F7-B782-4E53-8DC9-6678C59BD3B8}" ShortID="716698651">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DC8CDB0-8962-461B-92F7-6C5216BCD536}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="PlayerHurtBig1" ID="{E73C8500-1303-46AD-90FB-82AFF6173B03}" ShortID="16164444">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DC8CDB0-8962-461B-92F7-6C5216BCD536}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PlayerHurtBig1" ID="{15F30C43-4681-4C95-B363-4D9301E3336B}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerHurtBig1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="893103935"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PlayerHurtBig1" ID="{15F30C43-4681-4C95-B363-4D9301E3336B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PlayerHurtBig2" ID="{7D1EEF43-EF0E-494E-BDF9-8EC8CE45B222}" ShortID="391059103">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DC8CDB0-8962-461B-92F7-6C5216BCD536}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PlayerHurtBig2" ID="{98AF8125-2B38-4DB6-A776-1D56A4DE97C2}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerHurtBig2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="271035172"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PlayerHurtBig2" ID="{98AF8125-2B38-4DB6-A776-1D56A4DE97C2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PlayerHurtBig3" ID="{4928B934-CAC9-407B-8287-D0AF6E414A69}" ShortID="63437029">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DC8CDB0-8962-461B-92F7-6C5216BCD536}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PlayerHurtBig3" ID="{F192C5DF-1C71-41D6-8340-E761BE17B9E2}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerHurtBig3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="357123746"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PlayerHurtBig3" ID="{F192C5DF-1C71-41D6-8340-E761BE17B9E2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="PlayerHurtBig4" ID="{A31D709A-42D1-4554-9595-3718485DD030}" ShortID="817237490">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DC8CDB0-8962-461B-92F7-6C5216BCD536}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="PlayerHurtBig4" ID="{2882048C-C3E9-4FC6-8C60-9C87BCB38A70}">
+													<Language>SFX</Language>
+													<AudioFile>PlayerHurtBig4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="127596275"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="PlayerHurtBig4" ID="{2882048C-C3E9-4FC6-8C60-9C87BCB38A70}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="PlayerHurtSmall" ID="{620107B0-E64A-48ED-A27F-14A0025A774B}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="PlayerHurtNormal" ID="{4C7F52BF-788C-45A8-97AC-2C6987536D90}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="PlayerHurtBig" ID="{3A7647F7-B782-4E53-8DC9-6678C59BD3B8}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Normal" ID="{8A09FC26-0ED8-4472-9F0E-D1FA44E94BBB}"/>
+										<ItemList>
+											<ItemRef Name="PlayerHurtNormal" ID="{4C7F52BF-788C-45A8-97AC-2C6987536D90}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Big" ID="{BDFEF79B-38AF-43A8-B5C8-63A2C406FC31}"/>
+										<ItemList>
+											<ItemRef Name="PlayerHurtBig" ID="{3A7647F7-B782-4E53-8DC9-6678C59BD3B8}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Small" ID="{7D25BCB3-F924-4634-A89C-56519BF16F4D}"/>
+										<ItemList>
+											<ItemRef Name="PlayerHurtSmall" ID="{620107B0-E64A-48ED-A27F-14A0025A774B}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Binoculars" ID="{8787A0C9-1D81-41FE-A3EE-CB172DA232D2}" ShortID="663126322">
 					<ChildrenList>
-						<Sound Name="BigUnequip" ID="{DAF3E817-C108-4164-B785-F95581462200}" ShortID="205868706">
+						<Sound Name="BigUnequip" ID="{A0CD6E7B-DAA8-4F4F-86B0-BF24EB2929BA}" ShortID="284876172">
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
@@ -558,7 +1031,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="BigUnequip" ID="{17879DA2-862F-444E-91DB-B68EF8EBEDEA}">
+								<AudioFileSource Name="BigUnequip" ID="{CD927060-C866-4419-B3E1-8F6370108CFF}">
 									<Language>SFX</Language>
 									<AudioFile>BigUnequip.wav</AudioFile>
 									<MediaIDList>
@@ -567,10 +1040,10 @@
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="BigUnequip" ID="{17879DA2-862F-444E-91DB-B68EF8EBEDEA}" Platform="Linked"/>
+								<ActiveSource Name="BigUnequip" ID="{CD927060-C866-4419-B3E1-8F6370108CFF}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="SmallUnequip" ID="{4C130A3F-BBC7-4B7C-85D8-786DD6B498A7}" ShortID="1038796402">
+						<Sound Name="SmallUnequip" ID="{B42EF189-3E66-4DBF-9B3E-2149FBB251E6}" ShortID="145416727">
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
@@ -587,7 +1060,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="SmallUnequip" ID="{9ACB39FF-9D4E-4F18-BEA9-4C39ADEC33C5}">
+								<AudioFileSource Name="SmallUnequip" ID="{3267AF42-0035-42BA-94B0-39165C0BD87F}">
 									<Language>SFX</Language>
 									<AudioFile>SmallUnequip.wav</AudioFile>
 									<MediaIDList>
@@ -596,10 +1069,10 @@
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="SmallUnequip" ID="{9ACB39FF-9D4E-4F18-BEA9-4C39ADEC33C5}" Platform="Linked"/>
+								<ActiveSource Name="SmallUnequip" ID="{3267AF42-0035-42BA-94B0-39165C0BD87F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="UnequipBig" ID="{382CC541-D1FA-4601-9F8E-A15A2734ADD2}" ShortID="248920413">
+						<Sound Name="UnequipBig" ID="{4740E252-D743-435A-8B58-E5F5A37C19FB}" ShortID="908350343">
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
@@ -616,7 +1089,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="UnequipBig" ID="{CCE6098C-8630-4EC5-B48D-563794E64EF3}">
+								<AudioFileSource Name="UnequipBig" ID="{41AFE5EC-6F36-438C-B904-495C4829F36E}">
 									<Language>SFX</Language>
 									<AudioFile>UnequipBig.wav</AudioFile>
 									<MediaIDList>
@@ -625,14 +1098,14 @@
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="UnequipBig" ID="{CCE6098C-8630-4EC5-B48D-563794E64EF3}" Platform="Linked"/>
+								<ActiveSource Name="UnequipBig" ID="{41AFE5EC-6F36-438C-B904-495C4829F36E}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="UnequipSmall" ID="{7791F724-D668-4979-9EB6-758B721AE986}" ShortID="331797888">
+						<Sound Name="UnequipSmall" ID="{C94204B3-0B39-4449-BC64-489106A9A675}" ShortID="1023410545">
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>4</Value>
+										<Value>3</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -645,7 +1118,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="UnequipSmall" ID="{6A791126-6411-4F90-825D-66FFA3361689}">
+								<AudioFileSource Name="UnequipSmall" ID="{843DCB47-8B0A-463A-B48E-C2CAD6FC3EB3}">
 									<Language>SFX</Language>
 									<AudioFile>UnequipSmall.wav</AudioFile>
 									<MediaIDList>
@@ -654,40 +1127,102 @@
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="UnequipSmall" ID="{6A791126-6411-4F90-825D-66FFA3361689}" Platform="Linked"/>
+								<ActiveSource Name="UnequipSmall" ID="{843DCB47-8B0A-463A-B48E-C2CAD6FC3EB3}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
 				</Folder>
-				<Sound Name="TreasureHunted_Soundtrack" ID="{77667BCB-3E4C-4921-93E6-C4D25CA6C51A}" ShortID="200289938">
-					<PropertyList>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-13</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DC8CDB0-8962-461B-92F7-6C5216BCD536}"/>
-						</Reference>
-					</ReferenceList>
+				<Folder Name="Music" ID="{466849F1-E157-40D8-859B-E80C867D368F}" ShortID="788770634">
 					<ChildrenList>
-						<AudioFileSource Name="TreasureHunted_Soundtrack" ID="{554464E6-2E6C-4A6B-B333-7445B8BED275}">
-							<Language>SFX</Language>
-							<AudioFile>TreasureHunted_Soundtrack.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="903390988"/>
-							</MediaIDList>
-						</AudioFileSource>
+						<Sound Name="Soundtrack" ID="{C7108A27-AD30-4ACB-B89E-E89ABB8747B7}" ShortID="860114271">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DC8CDB0-8962-461B-92F7-6C5216BCD536}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="TreasureHunted_Soundtrack" ID="{426D396E-DC7B-4E67-B018-593F8EDB14FA}">
+									<Language>SFX</Language>
+									<AudioFile>TreasureHunted_Soundtrack.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="903390988"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="TreasureHunted_Soundtrack" ID="{426D396E-DC7B-4E67-B018-593F8EDB14FA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="TreasureHunted_GameOver" ID="{E4EA907E-9543-47B6-9DD2-6B4F4F7CF1FE}" ShortID="8951311">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DC8CDB0-8962-461B-92F7-6C5216BCD536}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="TreasureHunted_GameOver" ID="{1470F0AB-E424-46FB-A1E0-546279B072A7}">
+									<Language>SFX</Language>
+									<AudioFile>TreasureHunted_GameOver.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="664762920"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="TreasureHunted_GameOver" ID="{1470F0AB-E424-46FB-A1E0-546279B072A7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="TreasureHunted_GameWon" ID="{FB15269A-7054-4BA2-8518-2ADD67F9BC65}" ShortID="236110115">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DC8CDB0-8962-461B-92F7-6C5216BCD536}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="TreasureHunted_GameWon" ID="{F08E45F2-E4D7-4829-9C68-0F8454AF44E5}">
+									<Language>SFX</Language>
+									<AudioFile>TreasureHunted_GameWon.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="455905510"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="TreasureHunted_GameWon" ID="{F08E45F2-E4D7-4829-9C68-0F8454AF44E5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="TreasureHunted_Soundtrack" ID="{554464E6-2E6C-4A6B-B333-7445B8BED275}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

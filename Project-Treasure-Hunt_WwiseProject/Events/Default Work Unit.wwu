@@ -27,16 +27,38 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="PlayerHurt" ID="{491C6791-025D-4964-AF1A-2662EE247925}">
+							<ChildrenList>
+								<Action Name="" ID="{6D9C19B3-40C6-49E4-A452-AB661FCF5D2A}" ShortID="812575224">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PlayerHurt" ID="{11A5E25C-E4BB-4D63-8E41-9F4BDFB09DAF}" WorkUnitID="{12736248-3910-435E-B939-605EC93B110B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Slam" ID="{FB21BF4F-8F1B-412A-AAFB-A20101BBF67A}">
+							<ChildrenList>
+								<Action Name="" ID="{728D381D-8443-4C9B-ABB4-D332E5C3740F}" ShortID="401477312">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PlayerSlam" ID="{F147F8A7-BD6D-4386-8103-8D54AE163510}" WorkUnitID="{12736248-3910-435E-B939-605EC93B110B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Binoculars" ID="{C0A30424-E6B6-4016-ABAB-7CEB6F32BBDD}" ShortID="505975175">
 					<ChildrenList>
 						<Event Name="UnequipSmall" ID="{3080E946-8C7B-4144-8B74-FAEB66040913}">
 							<ChildrenList>
-								<Action Name="" ID="{40F6AEF1-19EB-4598-8CDF-43F73878F6FB}" ShortID="129358208">
+								<Action Name="" ID="{DA7BDE57-3906-4578-AB78-72BACB151F87}" ShortID="842132919">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="UnequipSmall" ID="{7791F724-D668-4979-9EB6-758B721AE986}" WorkUnitID="{12736248-3910-435E-B939-605EC93B110B}"/>
+											<ObjectRef Name="UnequipSmall" ID="{C94204B3-0B39-4449-BC64-489106A9A675}" WorkUnitID="{12736248-3910-435E-B939-605EC93B110B}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -44,10 +66,10 @@
 						</Event>
 						<Event Name="BigUnequip" ID="{21DB9CB9-4ECA-47DC-9CCB-C85099B22D43}">
 							<ChildrenList>
-								<Action Name="" ID="{B1875E35-9682-4E24-961B-1CD491DD04E9}" ShortID="65587229">
+								<Action Name="" ID="{4200E945-2A98-47FA-83BD-1B7FB67C9DC3}" ShortID="764004596">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="BigUnequip" ID="{DAF3E817-C108-4164-B785-F95581462200}" WorkUnitID="{12736248-3910-435E-B939-605EC93B110B}"/>
+											<ObjectRef Name="BigUnequip" ID="{A0CD6E7B-DAA8-4F4F-86B0-BF24EB2929BA}" WorkUnitID="{12736248-3910-435E-B939-605EC93B110B}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -55,10 +77,10 @@
 						</Event>
 						<Event Name="SmallUnequip" ID="{DA87BF36-D668-41F4-BE61-0639BF7851B5}">
 							<ChildrenList>
-								<Action Name="" ID="{1ED7E449-AFDF-4414-B3C4-EC576349B144}" ShortID="325458464">
+								<Action Name="" ID="{CCDD1A1F-5850-444C-AB9A-AA87A4DC979E}" ShortID="922477248">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="SmallUnequip" ID="{4C130A3F-BBC7-4B7C-85D8-786DD6B498A7}" WorkUnitID="{12736248-3910-435E-B939-605EC93B110B}"/>
+											<ObjectRef Name="SmallUnequip" ID="{B42EF189-3E66-4DBF-9B3E-2149FBB251E6}" WorkUnitID="{12736248-3910-435E-B939-605EC93B110B}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -66,10 +88,10 @@
 						</Event>
 						<Event Name="UnequipBig" ID="{4EBC19DA-E63C-4650-AF73-A35A098B5521}">
 							<ChildrenList>
-								<Action Name="" ID="{E3653951-ECA4-4103-AEAB-5E74E4857072}" ShortID="480446560">
+								<Action Name="" ID="{CCEB849B-E09C-421B-9F5F-C628F0D734F0}" ShortID="319641398">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="UnequipBig" ID="{382CC541-D1FA-4601-9F8E-A15A2734ADD2}" WorkUnitID="{12736248-3910-435E-B939-605EC93B110B}"/>
+											<ObjectRef Name="UnequipBig" ID="{4740E252-D743-435A-8B58-E5F5A37C19FB}" WorkUnitID="{12736248-3910-435E-B939-605EC93B110B}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -77,17 +99,43 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Event Name="SoundtrackStart" ID="{3FD64D85-7DCF-40E2-A3CC-20BFA8E53CC6}">
+				<Folder Name="Music" ID="{B9B43389-1F77-42C2-964C-9EA9A5BAFBED}" ShortID="102788818">
 					<ChildrenList>
-						<Action Name="" ID="{D926AA0F-3D46-4FF5-AF42-F597412E43B9}" ShortID="177130691">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="TreasureHunted_Soundtrack" ID="{77667BCB-3E4C-4921-93E6-C4D25CA6C51A}" WorkUnitID="{12736248-3910-435E-B939-605EC93B110B}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="SoundtrackStart" ID="{3FD64D85-7DCF-40E2-A3CC-20BFA8E53CC6}">
+							<ChildrenList>
+								<Action Name="" ID="{8D74E51E-8B73-435F-B739-B6527DE523F7}" ShortID="440403372">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Soundtrack" ID="{C7108A27-AD30-4ACB-B89E-E89ABB8747B7}" WorkUnitID="{12736248-3910-435E-B939-605EC93B110B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="GameOver" ID="{F41DC76A-4910-4036-84B6-8011B7FF8F66}">
+							<ChildrenList>
+								<Action Name="" ID="{D2A16D6C-10A2-4CD1-ADE4-9F08F353A043}" ShortID="351100870">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TreasureHunted_GameOver" ID="{E4EA907E-9543-47B6-9DD2-6B4F4F7CF1FE}" WorkUnitID="{12736248-3910-435E-B939-605EC93B110B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="GameWon" ID="{3A0D64C1-B84F-4D66-AEEF-51D2D03967A2}">
+							<ChildrenList>
+								<Action Name="" ID="{068A4D01-D791-4164-82D2-91C3814728CE}" ShortID="850478196">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TreasureHunted_GameWon" ID="{FB15269A-7054-4BA2-8518-2ADD67F9BC65}" WorkUnitID="{12736248-3910-435E-B939-605EC93B110B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

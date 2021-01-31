@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="4033003112">
+		<SoundBank Id="3161908922" Language="SFX" Hash="2809152693">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -26,6 +26,22 @@
 						<File Id="773939083" Language="SFX">
 							<ShortName>BigUnequip.wav</ShortName>
 							<Path>SFX\BigUnequip_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4158285989" Name="GameOver" ObjectPath="\Events\Default Work Unit\Music\GameOver" DurationType="OneShot" DurationMin="5.714292" DurationMax="5.714292">
+					<IncludedMemoryFiles>
+						<File Id="664762920" Language="SFX">
+							<ShortName>TreasureHunted_GameOver.wav</ShortName>
+							<Path>SFX\TreasureHunted_GameOver_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1675614853" Name="GameWon" ObjectPath="\Events\Default Work Unit\Music\GameWon" DurationType="OneShot" DurationMin="5.714271" DurationMax="5.714271">
+					<IncludedMemoryFiles>
+						<File Id="455905510" Language="SFX">
+							<ShortName>TreasureHunted_GameWon.wav</ShortName>
+							<Path>SFX\TreasureHunted_GameWon_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -103,7 +119,127 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="4008126242" Name="PlayerJump" ObjectPath="\Events\Default Work Unit\Player\PlayerJump" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3537581393" Name="PlayerHurt" ObjectPath="\Events\Default Work Unit\Player\PlayerHurt" DurationType="OneShot" DurationMin="0.171917" DurationMax="0.676792">
+					<IncludedMemoryFiles>
+						<File Id="34549169" Language="SFX">
+							<ShortName>PlayerHurtNormal2.wav</ShortName>
+							<Path>SFX\PlayerHurtNormal2_10C4C929.wem</Path>
+						</File>
+						<File Id="127596275" Language="SFX">
+							<ShortName>PlayerHurtBig4.wav</ShortName>
+							<Path>SFX\PlayerHurtBig4_10C4C929.wem</Path>
+						</File>
+						<File Id="222884942" Language="SFX">
+							<ShortName>PlayerHurtSmall4.wav</ShortName>
+							<Path>SFX\PlayerHurtSmall4_10C4C929.wem</Path>
+						</File>
+						<File Id="271035172" Language="SFX">
+							<ShortName>PlayerHurtBig2.wav</ShortName>
+							<Path>SFX\PlayerHurtBig2_10C4C929.wem</Path>
+						</File>
+						<File Id="281584974" Language="SFX">
+							<ShortName>PlayerHurtNormal1.wav</ShortName>
+							<Path>SFX\PlayerHurtNormal1_10C4C929.wem</Path>
+						</File>
+						<File Id="357123746" Language="SFX">
+							<ShortName>PlayerHurtBig3.wav</ShortName>
+							<Path>SFX\PlayerHurtBig3_10C4C929.wem</Path>
+						</File>
+						<File Id="520856155" Language="SFX">
+							<ShortName>PlayerHurtNormal3.wav</ShortName>
+							<Path>SFX\PlayerHurtNormal3_10C4C929.wem</Path>
+						</File>
+						<File Id="609207972" Language="SFX">
+							<ShortName>PlayerHurtSmall1.wav</ShortName>
+							<Path>SFX\PlayerHurtSmall1_10C4C929.wem</Path>
+						</File>
+						<File Id="620364533" Language="SFX">
+							<ShortName>PlayerHurtSmall3.wav</ShortName>
+							<Path>SFX\PlayerHurtSmall3_10C4C929.wem</Path>
+						</File>
+						<File Id="816368763" Language="SFX">
+							<ShortName>PlayerHurtNormal4.wav</ShortName>
+							<Path>SFX\PlayerHurtNormal4_10C4C929.wem</Path>
+						</File>
+						<File Id="893103935" Language="SFX">
+							<ShortName>PlayerHurtBig1.wav</ShortName>
+							<Path>SFX\PlayerHurtBig1_10C4C929.wem</Path>
+						</File>
+						<File Id="909978063" Language="SFX">
+							<ShortName>PlayerHurtSmall2.wav</ShortName>
+							<Path>SFX\PlayerHurtSmall2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{8A09FC26-0ED8-4472-9F0E-D1FA44E94BBB}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{7D25BCB3-F924-4634-A89C-56519BF16F4D}">
+							<Media>
+								<File Id="222884942"/>
+								<File Id="609207972"/>
+								<File Id="620364533"/>
+								<File Id="909978063"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{8A09FC26-0ED8-4472-9F0E-D1FA44E94BBB}">
+							<Media>
+								<File Id="34549169"/>
+								<File Id="281584974"/>
+								<File Id="520856155"/>
+								<File Id="816368763"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{BDFEF79B-38AF-43A8-B5C8-63A2C406FC31}">
+							<Media>
+								<File Id="127596275"/>
+								<File Id="271035172"/>
+								<File Id="357123746"/>
+								<File Id="893103935"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="4008126242" Name="PlayerJump" ObjectPath="\Events\Default Work Unit\Player\PlayerJump" DurationType="OneShot" DurationMin="0.230000" DurationMax="0.280000">
+					<IncludedMemoryFiles>
+						<File Id="160367161" Language="SFX">
+							<ShortName>PlayerJump.wav</ShortName>
+							<Path>SFX\PlayerJump_10C4C929.wem</Path>
+						</File>
+						<File Id="579225202" Language="SFX">
+							<ShortName>PlayerJumpSmall.wav</ShortName>
+							<Path>SFX\PlayerJumpSmall_10C4C929.wem</Path>
+						</File>
+						<File Id="921230088" Language="SFX">
+							<ShortName>PlayerJumpBig.wav</ShortName>
+							<Path>SFX\PlayerJumpBig_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{8A09FC26-0ED8-4472-9F0E-D1FA44E94BBB}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{8A09FC26-0ED8-4472-9F0E-D1FA44E94BBB}">
+							<Media>
+								<File Id="160367161"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{BDFEF79B-38AF-43A8-B5C8-63A2C406FC31}">
+							<Media>
+								<File Id="921230088"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{7D25BCB3-F924-4634-A89C-56519BF16F4D}">
+							<Media>
+								<File Id="579225202"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="821159926" Name="Slam" ObjectPath="\Events\Default Work Unit\Player\Slam" DurationType="OneShot" DurationMin="0.924125" DurationMax="0.924125">
+					<IncludedMemoryFiles>
+						<File Id="104014789" Language="SFX">
+							<ShortName>PlayerSlam.wav</ShortName>
+							<Path>SFX\PlayerSlam_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2891699369" Name="SmallUnequip" ObjectPath="\Events\Default Work Unit\Binoculars\SmallUnequip" DurationType="OneShot" DurationMin="1.061708" DurationMax="1.061708">
 					<IncludedMemoryFiles>
 						<File Id="227294564" Language="SFX">
@@ -112,7 +248,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="484553877" Name="SoundtrackStart" ObjectPath="\Events\Default Work Unit\SoundtrackStart" DurationType="OneShot" DurationMin="68.571419" DurationMax="68.571419">
+				<Event Id="484553877" Name="SoundtrackStart" ObjectPath="\Events\Default Work Unit\Music\SoundtrackStart" DurationType="OneShot" DurationMin="68.571419" DurationMax="68.571419">
 					<IncludedMemoryFiles>
 						<File Id="903390988" Language="SFX">
 							<ShortName>TreasureHunted_Soundtrack.wav</ShortName>

@@ -1,10 +1,14 @@
 Event	ID	Name			Wwise Object Path	Notes
-	484553877	SoundtrackStart			\Default Work Unit\SoundtrackStart	
+	484553877	SoundtrackStart			\Default Work Unit\Music\SoundtrackStart	
+	821159926	Slam			\Default Work Unit\Player\Slam	
 	841125737	UnequipSmall			\Default Work Unit\Binoculars\UnequipSmall	
+	1675614853	GameWon			\Default Work Unit\Music\GameWon	
 	2277327558	UnequipBig			\Default Work Unit\Binoculars\UnequipBig	
 	2891699369	SmallUnequip			\Default Work Unit\Binoculars\SmallUnequip	
+	3537581393	PlayerHurt			\Default Work Unit\Player\PlayerHurt	
 	3542290436	PlayerFootstep			\Default Work Unit\Player\PlayerFootstep	
 	4008126242	PlayerJump			\Default Work Unit\Player\PlayerJump	
+	4158285989	GameOver			\Default Work Unit\Music\GameOver	
 	4239201732	BigUnequip			\Default Work Unit\Binoculars\BigUnequip	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
@@ -16,20 +20,38 @@ Switch	ID	Name	Switch Group			Notes
 	1846755610	Small	PlayerSize			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	34549169	PlayerHurtNormal2	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\PlayerHurtNormal2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerHurt\PlayerHurtNormal\PlayerHurtNormal2		25484
+	104014789	PlayerSlam	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\PlayerSlam_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerSlam		88780
+	127596275	PlayerHurtBig4	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\PlayerHurtBig4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerHurt\PlayerHurtBig\PlayerHurtBig4		55636
+	160367161	PlayerJump	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\PlayerJump_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerJump\PlayerJump		26944
+	222884942	PlayerHurtSmall4	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\PlayerHurtSmall4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerHurt\PlayerHurtSmall\PlayerHurtSmall4		32704
 	227294564	SmallUnequip	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\SmallUnequip_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Binoculars\SmallUnequip		101988
 	252891759	PlayerFootstepBig1	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\PlayerFootstepBig1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerFootsteps\PlayerFootstepsBig\PlayerFootstepBig1		71436
+	271035172	PlayerHurtBig2	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\PlayerHurtBig2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerHurt\PlayerHurtBig\PlayerHurtBig2		65036
+	281584974	PlayerHurtNormal1	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\PlayerHurtNormal1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerHurt\PlayerHurtNormal\PlayerHurtNormal1		16568
 	344841291	PlayerFootstepBig4	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\PlayerFootstepBig4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerFootsteps\PlayerFootstepsBig\PlayerFootstepBig4		79436
+	357123746	PlayerHurtBig3	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\PlayerHurtBig3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerHurt\PlayerHurtBig\PlayerHurtBig3		50028
 	395645688	PlayerFootstep1	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\PlayerFootstep1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerFootsteps\PlayerFootstepsNormal\PlayerFootstep1		23104
+	455905510	TreasureHunted_GameWon	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\TreasureHunted_GameWon_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\TreasureHunted_GameWon		1097204
 	489711362	PlayerFootstepSmall2	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\PlayerFootstepSmall2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerFootsteps\PlayerFootstepsSmall\PlayerFootstepSmall2		22144
+	520856155	PlayerHurtNormal3	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\PlayerHurtNormal3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerHurt\PlayerHurtNormal\PlayerHurtNormal3		25708
 	566968721	PlayerFootstep2	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\PlayerFootstep2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerFootsteps\PlayerFootstepsNormal\PlayerFootstep2		22144
+	579225202	PlayerJumpSmall	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\PlayerJumpSmall_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerJump\PlayerJumpSmall		22144
+	609207972	PlayerHurtSmall1	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\PlayerHurtSmall1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerHurt\PlayerHurtSmall\PlayerHurtSmall1		41344
 	620126677	PlayerFootstepSmall3	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\PlayerFootstepSmall3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerFootsteps\PlayerFootstepsSmall\PlayerFootstepSmall3		24704
+	620364533	PlayerHurtSmall3	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\PlayerHurtSmall3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerHurt\PlayerHurtSmall\PlayerHurtSmall3		28864
 	634291527	UnequipSmall	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\UnequipSmall_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Binoculars\UnequipSmall		102924
+	664762920	TreasureHunted_GameOver	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\TreasureHunted_GameOver_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\TreasureHunted_GameOver		1097208
 	690314602	UnequipBig	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\UnequipBig_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Binoculars\UnequipBig		103692
 	773939083	BigUnequip	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\BigUnequip_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Binoculars\BigUnequip		104772
+	816368763	PlayerHurtNormal4	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\PlayerHurtNormal4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerHurt\PlayerHurtNormal\PlayerHurtNormal4		32704
 	839980601	PlayerFootstepSmall1	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\PlayerFootstepSmall1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerFootsteps\PlayerFootstepsSmall\PlayerFootstepSmall1		23104
 	880025455	PlayerFootstep4	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\PlayerFootstep4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerFootsteps\PlayerFootstepsNormal\PlayerFootstep4		19532
-	903390988	TreasureHunted_Soundtrack	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\TreasureHunted_Soundtrack_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\TreasureHunted_Soundtrack		13165776
+	893103935	PlayerHurtBig1	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\PlayerHurtBig1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerHurt\PlayerHurtBig\PlayerHurtBig1		63836
+	903390988	Soundtrack	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\TreasureHunted_Soundtrack_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Soundtrack		13165776
 	903432915	PlayerFootstepBig3	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\PlayerFootstepBig3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerFootsteps\PlayerFootstepsBig\PlayerFootstepBig3		75908
+	909978063	PlayerHurtSmall2	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\PlayerHurtSmall2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerHurt\PlayerHurtSmall\PlayerHurtSmall2		35584
 	918644030	PlayerFootstep3	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\PlayerFootstep3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerFootsteps\PlayerFootstepsNormal\PlayerFootstep3		12544
+	921230088	PlayerJumpBig	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\PlayerJumpBig_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerJump\PlayerJumpBig		25024
 	928482621	PlayerFootstepBig2	C:\Users\Mattias\Documents\GitHub\Project-Treasure-Hunt\Project-Treasure-Hunt_WwiseProject\.cache\Windows\SFX\PlayerFootstepBig2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerFootsteps\PlayerFootstepsBig\PlayerFootstepBig2		73940
 
