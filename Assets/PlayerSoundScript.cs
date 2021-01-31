@@ -11,6 +11,6 @@ public class PlayerSoundScript : MonoBehaviour
 
     public void Jump()
     {
-        //AkSoundEngine.PostEvent("PlayerJump", this.gameObject);
+        AkSoundEngine.PostEvent("PlayerJump", this.gameObject);
     }
 }
