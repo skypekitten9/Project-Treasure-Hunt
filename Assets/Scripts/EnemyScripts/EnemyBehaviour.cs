@@ -15,6 +15,9 @@ public class EnemyBehaviour : MonoBehaviour
     public float knockbackForce;
     public float attackDamage;
 
+    private float knockupTimer;
+    private float knockupTimerReset;
+
     Rigidbody2D rb;
 
     private bool goingRight;
@@ -32,6 +35,9 @@ public class EnemyBehaviour : MonoBehaviour
         rb = gameObject.GetComponent<Rigidbody2D>();
         behaviourState = BehaviourState.patrolling;
         goingRight = true;
+
+        knockupTimer = 1.5f;
+        knockupTimerReset = knockupTimer;
     }
 
     void Update()
@@ -48,7 +54,14 @@ public class EnemyBehaviour : MonoBehaviour
 
             case BehaviourState.inactive:
 
+                knockupTimer -= Time.deltaTime;
 
+                if (knockupTimer <= 0)
+                {
+                    knockupTimer = knockupTimerReset;
+
+                    behaviourState = BehaviourState.patrolling;
+                }
 
                 break;
         }
@@ -101,6 +114,16 @@ public class EnemyBehaviour : MonoBehaviour
         }
 
         target.GetComponent<Movement>().rb.AddForce(Vector2.up * (knockbackForce / 2));
+    }
+
+    public void Knockup()
+    {
+        if (behaviourState == BehaviourState.patrolling)
+        {
+            rb.velocity = Vector2.zero;
+            behaviourState = BehaviourState.inactive;
+            rb.AddForce(Vector2.up * 250);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
