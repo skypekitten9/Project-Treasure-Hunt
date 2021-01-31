@@ -8,4 +8,9 @@ public class PlayerSoundScript : MonoBehaviour
     {
         AkSoundEngine.PostEvent("PlayerFootstep", this.gameObject);
     }
+
+    public void Jump()
+    {
+        //AkSoundEngine.PostEvent("PlayerJump", this.gameObject);
+    }
 }

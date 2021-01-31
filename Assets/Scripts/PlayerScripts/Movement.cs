@@ -40,7 +40,7 @@ public class Movement : MonoBehaviour
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
-        //animator = gameObject.GetComponent<Animator>();
+        animator = model.GetComponent<Animator>();
 
         jumpReset = extraJumps;
         jumpTimerReset = jumpTimer;
@@ -111,22 +111,22 @@ public class Movement : MonoBehaviour
         if (moveInput > 0)
         {
             transform.eulerAngles = new Vector3(0, 0, 0);
-           // animator.SetBool("isRunning", true);
+            animator.SetBool("isRunning", true);
         }
         else if (moveInput < 0)
         {
             transform.eulerAngles = new Vector3(0, 180, 0);
-            //animator.SetBool("isRunning", true);
+            animator.SetBool("isRunning", true);
         }
         else if (moveInput == 0)
         {
-            //animator.SetBool("isRunning", false);
+            animator.SetBool("isRunning", false);
         }
     }
 
     private void Jump()
     {
-        //AkSoundEngine.PostEvent("PlayerJump", model);
+        animator.Play("Player_Model_Jump");
         rb.velocity = new Vector2(rb.velocity.x, 1 * jumpForce);
         isJumping = true;
     }
