@@ -49,7 +49,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: d72922b7949b8c4bbdc30b20b8d331ed
     GuidInternal: 
-    m_lastTime: -8585895745272353762
+    m_lastTime: -8585895176802863808
     List:
     - name: Main
       guid: 8d25ffd57ca5064d9d9dc8fd12e726a6
@@ -68,7 +68,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: c47ce3bd5d7cf74483752563afe76de0
     GuidInternal: 
-    m_lastTime: -8585895745272264005
+    m_lastTime: -8585895176802934090
     List:
     - name: BigUnequip
       guid: b99cdb21ca4edc479ccbc85099b22d43
@@ -93,6 +93,46 @@ MonoBehaviour:
       - ElementName: Binoculars
         ObjectType: 4
       Path: Default Work Unit\Binoculars
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: GameOver
+      guid: 6ac71df41049364084b68011b7ff8f66
+      id: 4158285989
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 4
+      - ElementName: GameOver
+        ObjectType: 3
+      Path: Default Work Unit\Music\GameOver
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: GameWon
+      guid: c1640d3a4fb8664daeef51d2d03967a2
+      id: 1675614853
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 4
+      - ElementName: GameWon
+        ObjectType: 3
+      Path: Default Work Unit\Music\GameWon
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Music
+      guid: 8933b4b9771fc242964c9ea9a5bafbed
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 4
+      Path: Default Work Unit\Music
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -122,6 +162,20 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: PlayerHurt
+      guid: 91671c495d026449af1a2662ee247925
+      id: 3537581393
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Player
+        ObjectType: 4
+      - ElementName: PlayerHurt
+        ObjectType: 3
+      Path: Default Work Unit\Player\PlayerHurt
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: PlayerJump
       guid: dabfe67df62b2a47a106a222135cc336
       id: 4008126242
@@ -133,6 +187,20 @@ MonoBehaviour:
       - ElementName: PlayerJump
         ObjectType: 3
       Path: Default Work Unit\Player\PlayerJump
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Slam
+      guid: 4fbf21fb1b8f2a41aafba20101bbf67a
+      id: 821159926
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Player
+        ObjectType: 4
+      - ElementName: Slam
+        ObjectType: 3
+      Path: Default Work Unit\Player\Slam
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -156,9 +224,11 @@ MonoBehaviour:
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Music
+        ObjectType: 4
       - ElementName: SoundtrackStart
         ObjectType: 3
-      Path: Default Work Unit\SoundtrackStart
+      Path: Default Work Unit\Music\SoundtrackStart
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -218,7 +288,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 0f8db9a498bf764e8b9f4260ac11c07a
     GuidInternal: 
-    m_lastTime: -8585895748637469024
+    m_lastTime: -8585895689391433488
     List:
     - name: PlayerSize
       guid: 49ff62117aa3ac458854c19d859fd55f
@@ -266,6 +336,7 @@ MonoBehaviour:
   - /Project-Treasure-Hunt_WwiseProject/Events
   - /Project-Treasure-Hunt_WwiseProject/Events/Default Work Unit
   - /Project-Treasure-Hunt_WwiseProject/Events/Default Work Unit/Binoculars
+  - /Project-Treasure-Hunt_WwiseProject/Events/Default Work Unit/Music
   - /Project-Treasure-Hunt_WwiseProject/Events/Default Work Unit/Player
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

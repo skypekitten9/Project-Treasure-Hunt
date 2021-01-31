@@ -14,8 +14,12 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID BIGUNEQUIP = 4239201732U;
+        static const AkUniqueID GAMEOVER = 4158285989U;
+        static const AkUniqueID GAMEWON = 1675614853U;
         static const AkUniqueID PLAYERFOOTSTEP = 3542290436U;
+        static const AkUniqueID PLAYERHURT = 3537581393U;
         static const AkUniqueID PLAYERJUMP = 4008126242U;
+        static const AkUniqueID SLAM = 821159926U;
         static const AkUniqueID SMALLUNEQUIP = 2891699369U;
         static const AkUniqueID SOUNDTRACKSTART = 484553877U;
         static const AkUniqueID UNEQUIPBIG = 2277327558U;
