@@ -7,6 +7,7 @@ public class Binoculars : MonoBehaviour
     private static Binoculars instance = null;
     public static Binoculars Instance { get { return instance; } }
     public BinocularsState State { get { return state; } }
+    public GameObject equipedModel, unequipedModel, reversedModel;
 
 
 
@@ -48,6 +49,10 @@ public class Binoculars : MonoBehaviour
         //equip or turn if possible
         if(Input.GetMouseButtonDown(0) && !busy)
         {
+            equipedModel.SetActive(true);
+            reversedModel.SetActive(false);
+            unequipedModel.SetActive(false);
+
             if (state == BinocularsState.reversed)
             {
                 TurnBinoculars();
@@ -74,6 +79,9 @@ public class Binoculars : MonoBehaviour
         //unequip if possible
         else if(Input.GetMouseButtonDown(1) && !busy)
         {
+            equipedModel.SetActive(false);
+            reversedModel.SetActive(true);
+            unequipedModel.SetActive(false);
             if (state == BinocularsState.equiped)
             {
                 TurnBinoculars();
@@ -91,6 +99,9 @@ public class Binoculars : MonoBehaviour
 
         else if (Input.GetMouseButtonDown(2) && !busy)
         {
+            equipedModel.SetActive(false);
+            reversedModel.SetActive(false);
+            unequipedModel.SetActive(true);
             if (state != BinocularsState.unequiped)
             {
                 ToggleBinoculars();
