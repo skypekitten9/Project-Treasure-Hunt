@@ -427,6 +427,9 @@
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A6F65B6C-4E11-4AAE-A509-6351B18023F8}"/>
 								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Normal" ID="{8A09FC26-0ED8-4472-9F0E-D1FA44E94BBB}" WorkUnitID="{A4B98D0F-BF98-4E76-8B9F-4260AC11C07A}"/>
+								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8DC8CDB0-8962-461B-92F7-6C5216BCD536}"/>
 								</Reference>

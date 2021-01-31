@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="216959927">
+		<SoundBank Id="3161908922" Language="SFX" Hash="1449949069">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -118,6 +118,7 @@
 							<Path>SFX\PlayerJumpBig_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{8A09FC26-0ED8-4472-9F0E-D1FA44E94BBB}</DefaultSwitchValue>
 					<SwitchContainers>
 						<SwitchContainer SwitchValue="{8A09FC26-0ED8-4472-9F0E-D1FA44E94BBB}">
 							<Media>

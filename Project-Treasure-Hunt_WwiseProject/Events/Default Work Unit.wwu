@@ -77,7 +77,17 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Event Name="SoundtrackStart" ID="{3FD64D85-7DCF-40E2-A3CC-20BFA8E53CC6}"/>
+				<Event Name="SoundtrackStart" ID="{3FD64D85-7DCF-40E2-A3CC-20BFA8E53CC6}">
+					<ChildrenList>
+						<Action Name="" ID="{8D74E51E-8B73-435F-B739-B6527DE523F7}" ShortID="440403372">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Soundtrack" ID="{C7108A27-AD30-4ACB-B89E-E89ABB8747B7}" WorkUnitID="{12736248-3910-435E-B939-605EC93B110B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
