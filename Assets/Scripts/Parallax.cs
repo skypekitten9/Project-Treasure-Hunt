@@ -27,10 +27,10 @@ public class Parallax : MonoBehaviour
         transform.position += new Vector3(xMovement * parallaxMultiplier, 0, 0);
         lastCameraPos = cameraTransform.position;
 
-        if (Mathf.Abs(cameraTransform.position.x - transform.position.x) >= textureUnitSizeX)
-        {
-            float offsetPosX = (cameraTransform.position.x - transform.position.x) % textureUnitSizeX;
-            transform.position = new Vector3(cameraTransform.position.x, transform.position.y);
-        }
+        //if (Mathf.Abs(cameraTransform.position.x - transform.position.x) >= textureUnitSizeX)
+        //{
+        //    float offsetPosX = (cameraTransform.position.x - transform.position.x) % textureUnitSizeX;
+        //    transform.position = new Vector3(cameraTransform.position.x, transform.position.y);
+        //}
     }
 }

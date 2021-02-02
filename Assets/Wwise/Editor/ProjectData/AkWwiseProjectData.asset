@@ -49,7 +49,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: d72922b7949b8c4bbdc30b20b8d331ed
     GuidInternal: 
-    m_lastTime: -8585895120602815886
+    m_lastTime: -8585895033330917477
     List:
     - name: Main
       guid: 8d25ffd57ca5064d9d9dc8fd12e726a6
@@ -68,7 +68,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: c47ce3bd5d7cf74483752563afe76de0
     GuidInternal: 
-    m_lastTime: -8585895114390787832
+    m_lastTime: -8585895033332227783
     List:
     - name: BigUnequip
       guid: b99cdb21ca4edc479ccbc85099b22d43
@@ -93,6 +93,32 @@ MonoBehaviour:
       - ElementName: Binoculars
         ObjectType: 4
       Path: Default Work Unit\Binoculars
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Enemy
+      guid: 80c5ab8fbed7264bb327f417498c6dfe
+      id: 2299321487
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemy
+        ObjectType: 4
+      Path: Default Work Unit\Enemy
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: EnemyFootstep
+      guid: 48daf182f6261a4ba99b330bd077c3ca
+      id: 534259801
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: EnemyFootstep
+        ObjectType: 3
+      Path: Default Work Unit\Enemy\EnemyFootstep
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
